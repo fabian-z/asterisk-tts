@@ -41,7 +41,7 @@ func init() {
 	}
 }
 
-// returns bool if line starts multiline match
+// checks if line starts multiline match
 // see also https://xkcd.com/974/
 func multiLineMatcher(s string) (matches bool, start byte, end byte) {
 	res := multiLineMatch.FindStringSubmatch(s)
@@ -56,7 +56,7 @@ func multiLineMatcher(s string) (matches bool, start byte, end byte) {
 			return
 		}
 	}
-	return
+	panic("regexp mismatch with multiline characters")
 }
 
 func main() {
