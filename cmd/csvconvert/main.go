@@ -37,7 +37,7 @@ func init() {
 	var err error
 	multiLineMatch, err = regexp.Compile(separator + "([" + matchGroup + "])")
 	if err != nil {
-		log.Fatal("Error initalizing multiLineMatch regexp: ", err)
+		panic("error initalizing multiLineMatch regexp: " + err.Error())
 	}
 }
 
@@ -75,6 +75,8 @@ func main() {
 
 	// ad hoc state machine for parsing of asterisk sound transcripts
 	var line, ignore int
+
+	// TODO factor out into proper struct with methods?
 	var multiLineActive bool
 	var multiLineIndex, prevLines, curLine string
 	var multiLineSeparator byte
