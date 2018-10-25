@@ -68,6 +68,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer src.Close()
 
 	sounds := make(map[string]string)
 	var soundOrder []string
@@ -171,6 +172,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer output.Close()
 
 	w := csv.NewWriter(output)
 
@@ -184,7 +186,7 @@ func main() {
 		}
 	}
 
-	// Write any buffered data to the underlying writer (standard output).
+	// Write any buffered data
 	w.Flush()
 
 	if err := w.Error(); err != nil {
