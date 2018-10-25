@@ -81,7 +81,7 @@ func main() {
 	scanner := bufio.NewScanner(src)
 	for scanner.Scan() {
 		line++
-		curLine = scanner.Text()
+		curLine = strings.TrimSpace(scanner.Text())
 
 		// ignore empty lines and comments starting with semicolon
 		if len(curLine) == 0 || curLine[0] == byte(';') {

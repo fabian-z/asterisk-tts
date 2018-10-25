@@ -12,7 +12,7 @@ index,english
 8,8 sec silence
 9,9 sec silence
 T-changed-to,[T] has been changed to [Extension Y]
-T-is-not-available,[T] is not available 
+T-is-not-available,[T] is not available
 T-to-disable-ancmnt,[T] to disable this announcement
 T-to-enable-ancmnt,[T] to enable this announcement
 T-to-hear-cur-ancmnt,[T] to hear the current announcement
@@ -302,7 +302,7 @@ emergency,Emergency
 encode,Encode
 engineering,Engineering
 ent-target-attendant,please enter the number of the extension to use for your target attendant
-enter-a-time,Enter a time using 4 digits.  Start with a zero for hours less than ten. 
+enter-a-time,Enter a time using 4 digits.  Start with a zero for hours less than ten.
 enter-conf-call-number,Please enter the conference call number for the conference you wish to join.
 enter-conf-pin-number,Please enter the conference pin number.
 enter-ext-of-person,enter the extension of the person you are trying to reach
@@ -354,14 +354,14 @@ food-service,Food service
 food-services,Food servies
 foot,foot
 for-a-daily-wakeup-call,For a daily wakeup call
-for-a-list-of,For a list of 
+for-a-list-of,For a list of
 for-accounting,For accounting
 for-billing,For billing
 for-billing,For billing
 for-english-press,"For english, press"
 for-extended-status-report,For an extended status report
-for-investor-relations,"for investor relations, press "
-for-louie-louie,"for the lyrics to louie, louie, press "
+for-investor-relations,"for investor relations, press"
+for-louie-louie,"for the lyrics to louie, louie, press"
 for-no-press,"for no, press"
 for-qc-and-training-purposes,For quality control and training purposes
 for-quality-purposes,for quality assurance purposes
@@ -437,8 +437,8 @@ hawaii,Hawaii
 headed-towards,Headed towards
 heading,Heading
 health-center,Health center
-hear-odd-noise,"to hear an odd noise, press "
-hear-toilet-flush,"to hear a toilet flush, press "
+hear-odd-noise,"to hear an odd noise, press"
+hear-toilet-flush,"to hear a toilet flush, press"
 heat-index,heat index
 heat-pump,heat pump
 heat,heat
@@ -480,7 +480,7 @@ if-rotary-phone,"If you have a rotary phone, please stay on the line after the m
 if-this-is-correct-press,"if this is correct, press"
 if-this-is-correct,If this is correct...
 if-this-is-not-correct,If this is not correct...
-if-u-know-ext-dial,"If you know the extension of the party you wish to reach, dial it now. "
+if-u-know-ext-dial,"If you know the extension of the party you wish to reach, dial it now."
 if-unsuccessful-speak-to,"In case I am unsuccessful, you should speak to..."
 if-you-know-the,if you know the
 if-you-need-help,if you need help
@@ -525,7 +525,7 @@ it-now,it now
 it-services,IT Services
 jacksonville,Jacksonville
 janitorial,Janitorial
-jason,Jason 
+jason,Jason
 jedi-extension-trick,This is not the extension you are looking for.
 john,John
 just-kidding-not-upset,Just kidding; didn't mean to get you all upset.
@@ -582,22 +582,22 @@ lots-o-monkeys,(sound effects of many angry monkeys)
 louisiana,Louisiana
 low,low
 lunch,lunch
-lyrics-louie-louie,"        Louie Louie, me gotta go
-        Louie Louie, me gotta go
-        Fine little girl she waits for me
-        Me catch the ship for cross the sea
-        Me sail the ship all alone
-        Me never thinks me make it home
-        (chorus)
-        Three nights and days me sail the sea
-        Me think of girl constantly
-        On the ship I dream she there
-        I smell the rose in her hair
-        (chorus, guitar solo)
-        Me see Jamaica moon above
-        It won't be long, me see my love
-        I take her in my arms and then
-        Me tell her I never leave again"
+lyrics-louie-louie,"Louie Louie, me gotta go
+Louie Louie, me gotta go
+Fine little girl she waits for me
+Me catch the ship for cross the sea
+Me sail the ship all alone
+Me never thinks me make it home
+(chorus)
+Three nights and days me sail the sea
+Me think of girl constantly
+On the ship I dream she there
+I smell the rose in her hair
+(chorus, guitar solo)
+Me see Jamaica moon above
+It won't be long, me see my love
+I take her in my arms and then
+Me tell her I never leave again"
 machine,Machine
 made-it-up,Just because I made it up doesn't mean it isn't true.
 mail,Mail
@@ -684,7 +684,7 @@ ninth,ninth
 no-112-1,this line does not support one one two services [quickly]
 no-112-2,this line does not support one one two services
 no-911-1,this line does not support nine one one services [quickly]
-no-911-2,this line does not support nine one one services 
+no-911-2,this line does not support nine one one services
 no-empty-conferences,No empty conferences currently exist.
 no-info-about-number,no further information is available about this number
 no-longer-in-service,is no longer in service
@@ -994,7 +994,7 @@ someone-you-trust3,Someone you trust is one of us.
 sorry-cant-let-you-do-that,"I'm sorry, I can't let you do that."
 sorry-cant-let-you-do-that2,"I'm sorry, I can't let you do that."
 sorry-cant-let-you-do-that3,"I'm sorry, I can't let you do that."
-sorry-mailbox-full,"Sorry, but the user's mailbox can't accept more messages. "
+sorry-mailbox-full,"Sorry, but the user's mailbox can't accept more messages."
 sorry2,"We're sorry, but we are not able to answer your call at this time."
 south-carolina,South Carolina
 south-dakota,South Dakota
@@ -1044,11 +1044,11 @@ technical-support,Technical support
 telephone-in-your-pocket,"Oooo! Is that a telephone in your pocket, or are you just happy to see me?"
 telephone-in-your-pocket2,"Oooo! Is that a telephone in your pocket, or are you just happy to see me?"
 telesales,Telesales
-teletubbie-murder,has been brutally murdered and mutilated by the Teletubbies. 
+teletubbie-murder,has been brutally murdered and mutilated by the Teletubbies.
 telnet,Telnet
 temp-disconnected,has been temporarialy disconnected
-temperature,temperature 
-temperature,temperature 
+temperature,temperature
+temperature,temperature
 tennessee,Tennessee
 tenth,tenth
 terabits,Terabits
@@ -1096,7 +1096,7 @@ tide,tide
 time,time
 times,times
 to-accept-recording,to accept this recording
-to-be-called-back,"To be called back when a representative is available, press-- "
+to-be-called-back,"To be called back when a representative is available, press--"
 to-blklist-last-caller,"To blacklist the last caller, press..."
 to-blklist-last-num,"To blacklist the last number, press..."
 to-call-num-press,"To call this number, press..."
@@ -1145,7 +1145,7 @@ to-snooze-for,To snooze for...
 to-use-def-attendant,"to use the default attendant, just press pound"
 tomorrow-night,tomorrow-night
 tones-that-follow-are-for-the-deaf,The tones that follow are for the deaf.
-tonight,tonight: 
+tonight,tonight:
 too-low,too low
 tornado,tornado
 touchtone1,"If you're calling from a rotary dial phone, hangup, go to a phone store, and purchase one of those new fangled inventions called a touch tone phone."
@@ -1168,8 +1168,8 @@ twentieth,twentieth
 twisty-maze,"You are in a maze of twisty little menus, all alike."
 typhoon,typhoon
 udp,UDP
-uh-oh1,"Uh oh!  [in a cutesy, Teletubbie's like voice] "
-uh-oh2,"Uh oh!  [in a cutesy, Teletubbie's like voice] "
+uh-oh1,"Uh oh!  [in a cutesy, Teletubbie's like voice]"
+uh-oh2,"Uh oh!  [in a cutesy, Teletubbie's like voice]"
 uk,UK
 unavailable,Unavailable
 unconditional,unconditional
@@ -1234,7 +1234,7 @@ wichita,Wichita
 will-apply,will apply
 will-expire,will expire
 will-not-expire,will not expire
-will-reflect-charge-of,will reflect a charge of 
+will-reflect-charge-of,will reflect a charge of
 wind-chill,wind chill
 wind,wind
 window,window
@@ -1315,7 +1315,7 @@ Entangled in the telephunk;
 The more he tried to get it free,
 The louder buzzed the telephee
 (I fear I'd better drop the song
-Of elephop and telephong!) 
+Of elephop and telephong!)
 [An Eletelephony Poem by Laura Elizabeth Richards]"
 enter_account,Please enter your account number.
 error,Error
@@ -1410,5 +1410,5 @@ woo_hoo_call_first,Woohoo! Your call is now first in line and will be answered b
 you_say_yes,"Ray, when somebody asks you if you're a god, you say YES!"
 yourcallisimportant,You call is important to us. That's why you'll be hearing the same 10 second loop for the next half hour at a charge of 12 cents per minute
 yourcallisimpotent,Your call is impotent to us.
-zombies,"Due to the presence of zombies at the location you have dialed the office has been evacuated. Please leave a message and we will return your call as soon as possible, unless of course the Apocalypse occurs first. In this event we'll likely have other priorities. "
+zombies,"Due to the presence of zombies at the location you have dialed the office has been evacuated. Please leave a message and we will return your call as soon as possible, unless of course the Apocalypse occurs first. In this event we'll likely have other priorities."
 pls-listen-options-changed,Please listen carefully as the menu options have changed.
