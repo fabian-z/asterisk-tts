@@ -4,24 +4,62 @@ import (
 	"bufio"
 	"log"
 	"os"
+	"regexp"
 	"strings"
 
 	"encoding/csv"
 )
 
 const (
-	separator          = ": "
-	separatorMulti     = ": \""
-	separatorMulti2    = ": ["
-	separatorEndMulti  = byte('"')
-	separatorEndMulti2 = byte(']')
+	separator = ": "
+	newline   = "\n"
 )
 
-func main() {
+var (
+	multiLineStartChars = []byte{'"', '['}
+	multiLineEndChars   = []byte{'"', ']'}
+	multiLineMatch      *regexp.Regexp
+)
 
+func init() {
 	if len(os.Args) != 3 {
 		log.Fatalf("Usage: %s <input.txt> <output.csv>", os.Args[0])
 	}
+	if len(multiLineStartChars) != len(multiLineEndChars) {
+		panic("multiLineCharacter specification mismatch")
+	}
+
+	var matchGroup string
+	for _, v := range multiLineStartChars {
+		matchGroup = matchGroup + regexp.QuoteMeta(string(v))
+	}
+
+	var err error
+	multiLineMatch, err = regexp.Compile(separator + "([" + matchGroup + "])")
+	if err != nil {
+		log.Fatal("Error initalizing multiLineMatch regexp: ", err)
+	}
+}
+
+// returns bool if line starts multiline match
+// see also https://xkcd.com/974/
+func multiLineMatcher(s string) (matches bool, start byte, end byte) {
+	res := multiLineMatch.FindStringSubmatch(s)
+	if res == nil || len(res) < 2 {
+		return
+	}
+	for k, v := range multiLineStartChars {
+		if res[1][0] == v {
+			matches = true
+			start = v
+			end = multiLineEndChars[k]
+			return
+		}
+	}
+	return
+}
+
+func main() {
 
 	source := os.Args[1]
 	dst := os.Args[2]
@@ -34,7 +72,7 @@ func main() {
 	sounds := make(map[string]string)
 	var soundOrder []string
 
-	// ad-hoc state machine parsing of asterisk sound transcripts
+	// ad hoc state machine for parsing of asterisk sound transcripts
 	var line, ignore int
 	var multiLineActive bool
 	var multiLineIndex, prevLines, curLine string
@@ -45,6 +83,7 @@ func main() {
 		line++
 		curLine = scanner.Text()
 
+		// ignore empty lines and comments starting with semicolon
 		if len(curLine) == 0 || curLine[0] == byte(';') {
 			ignore++
 			continue
@@ -54,8 +93,11 @@ func main() {
 			log.Println("End multiline input on line ", line)
 			// last line
 
+			// save parsed multiple line string
 			sounds[multiLineIndex] = prevLines + "\n" + curLine[:len(curLine)-1]
 			soundOrder = append(soundOrder, multiLineIndex)
+
+			// reset state machine
 			prevLines = ""
 			multiLineSeparator = 0
 			multiLineIndex = ""
@@ -66,35 +108,28 @@ func main() {
 		if multiLineActive {
 			var sep string
 			if len(prevLines) != 0 {
-				sep = "\n"
+				sep = newline
 			}
 			prevLines = prevLines + sep + curLine
 			continue
 		}
 
-		if strings.Index(curLine, separatorMulti) != -1 {
+		if matches, start, end := multiLineMatcher(curLine); matches {
 			if multiLineActive {
 				log.Fatal("Multiline already active")
 			}
 
-			c := strings.Count(curLine, string(separatorEndMulti))
-			if c%2 != 0 {
-				multiLineActive = true
-				multiLineSeparator = separatorEndMulti
-			}
-		}
-		if strings.Index(curLine, separatorMulti2) != -1 {
-			if multiLineActive {
-				log.Fatal("Multiline already active")
+			var c1, c2 int
+			c1 = strings.Count(curLine, string(start))
+
+			if start != end {
+				c2 = strings.Count(curLine, string(end))
 			}
 
-			c1 := strings.Count(curLine, string(separatorEndMulti2))
-			c2 := strings.Count(curLine, "[")
 			c := c1 + c2
-
 			if c%2 != 0 {
 				multiLineActive = true
-				multiLineSeparator = separatorEndMulti2
+				multiLineSeparator = end
 			}
 		}
 
@@ -111,15 +146,25 @@ func main() {
 			// Get index
 			log.Println("Begin multiline input on line ", line, curLine)
 			multiLineIndex = split[0]
+
+			//Remove leading multiline separator
 			prevLines = split[1][1:]
 			continue
+		}
+
+		if _, ok := sounds[split[0]]; ok {
+			log.Println("Duplicate key: ", split[0])
 		}
 
 		sounds[split[0]] = split[1]
 		soundOrder = append(soundOrder, split[0])
 	}
 
-	log.Printf("Processed %d lines, ignored %d bogus lines, %d result lines", line, ignore, len(sounds))
+	if multiLineActive || len(prevLines) != 0 {
+		log.Fatal("Error parsing multiline input")
+	}
+
+	log.Printf("Processed %d lines, ignored %d bogus lines, %d distinct results parsed", line, ignore, len(sounds))
 
 	//TODO update english column instead of writing new file if possible?
 	output, err := os.OpenFile(dst, os.O_CREATE|os.O_EXCL|os.O_RDWR, 0644)
