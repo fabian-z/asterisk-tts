@@ -11,6 +11,7 @@ import (
 )
 
 const (
+	comment   = ";"
 	separator = ": "
 	newline   = "\n"
 )
@@ -87,7 +88,7 @@ func main() {
 		curLine = strings.TrimSpace(scanner.Text())
 
 		// ignore empty lines and comments starting with semicolon
-		if len(curLine) == 0 || curLine[0] == byte(';') {
+		if len(curLine) == 0 || curLine[0] == comment[0] {
 			ignore++
 			continue
 		}
