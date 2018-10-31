@@ -97,7 +97,17 @@ reader:
 		msgCount++
 		charCount = charCount + len(message)
 
-		err = synthesize(message, filepath.Join(out, index+".wav"))
+		outPath := filepath.Join(out, index+".wav")
+		outDir := filepath.Dir(outPath)
+
+		err = os.MkdirAll(outDir, 0777)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		log.Println("Synthesizing ", outPath)
+
+		err = synthesize(message, outPath)
 		if err != nil {
 			log.Fatal(err)
 		}
