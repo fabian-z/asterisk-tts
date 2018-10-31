@@ -1,570 +1,571 @@
-index,english
-activated,Activated.
-added,Added.
-agent-alreadyon,That agent is already logged on.  Please enter your agent number followed by the pound key.
-agent-incorrect,Login incorrect.  Please enter your agent number followed by the pound key.
-agent-loggedoff,Agent Logged off.
-agent-loginok,Agent logged in.
-agent-newlocation,"Please enter a new extension, followed by pound."
-agent-pass,Please enter your password followed by the pound key.
-agent-user,Agent login.  Please enter your agent number followed by the pound key.
-all-circuits-busy-now,All circuits are busy now.
-ascending-2tone,[ascending tones]
-astcc-followed-by-the-pound-key,Followed by the pound key.
-at-tone-time-exactly,"At the sound of the tone, the time will be exactly..."
-auth-incorrect,Password incorrect.  Please enter your password followed by the pound key.
-auth-thankyou,Thank you.
-basic-pbx-ivr-main,"Thank you for calling Super Awesome Company, Waldo's premier provider of perfect products. If you know your party's extension, you may dial it at any time. To establish a sales partnership, press one. To speak with a customer advocate, press two. For accounting and other receivables, press three. For a company directory, press four. For an operator, press zero."
-beep,[this is a simple beep tone]
-beeperr,[this is an error beep tone]
-call-forwarding,Call forwarding.
-call-fwd-no-ans,Call-Forward on No Answer.
-call-fwd-on-busy,Call-Forward on Busy.
-call-fwd-unconditional,Call-Forward Unconditional.
-call-waiting,Call waiting.
-calling,Calling.
-cancelled,Cancelled.
-cannot-complete-as-dialed,Your call cannot be completed as dialed.
-check-number-dial-again,Please check the number and dial again.
-conf-adminmenu-162,"Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit."
-conf-adminmenu-18,"Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 for more options."
-conf-adminmenu-menu8,"Press 1 to list users currently in the conference, 2 to kick all non-administrator users, 3 to mute or umute all non-administrator users, 4 to record this conference, or 8 to exit this menu and return to the conference."
-conf-adminmenu,"Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit."
-conf-enteringno,You are entering conference number
-conf-errormenu,Invalid Choice
-conf-extended,The conference has been extended.
-conf-full,That conference is full.
-conf-getchannel,Please enter the channel number followed by the pound key.
-conf-getconfno,Please enter your conference number followed by the pound key.
-conf-getpin,Please enter the conference pin number.
-conf-hasjoin,is now in the conference.
-conf-hasleft,has left the conference.
-conf-invalid,That is not a valid conference number.  Please try again.
-conf-invalidpin,That pin is invalid for this conference.
-conf-kicked,You have been kicked from this conference
-conf-leaderhasleft,The leader has left the conference.
-conf-locked,This conference is locked!
-conf-lockednow,The conference is now locked
-conf-muted,You are now muted
-conf-noempty,No empty conferences currently exist.
-conf-nonextended,The conference cannot be extended.
-conf-now-muted,The conference is now muted.
-conf-now-recording,The conference is now being recorded.
-conf-now-unmuted,The conference is now unmuted.
-conf-onlyone,There is currently one other participant in the conference.
-conf-onlyperson,You are currently the only person in this conference.
-conf-otherinparty,other participants in the conference
-conf-placeintoconf,You will now be placed into the conference.
-conf-roll-callcomplete,Playback of the list of people attending is complete.
-conf-thereare,There are currently
-conf-unlockednow,The conference is now unlocked
-conf-unmuted,You are now unmuted
-conf-usermenu-162,"Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit this menu and return to the conference."
-conf-usermenu,"Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit."
-conf-userswilljoin,users will join the conference.
-conf-userwilljoin,user will join the conference.
-conf-waitforleader,The conference will begin when the leader arrives.
-confbridge-begin-glorious-a,the conference will begin when our glorious leader arrives
-confbridge-begin-glorious-b,the conference will begin when our glorious leader arrives
-confbridge-begin-glorious-c,the conference will begin when our glorious leader arrives
-confbridge-begin-leader,the conference will begin when the leader arrives
-confbridge-binaural-off,3D audio disabled
-confbridge-binaural-on,3D audio enabled
-confbridge-conf-begin,the conference will now begin
-confbridge-conf-end,the conference has ended
-confbridge-dec-list-vol-in,To decrease the audio volume from other participants...
-confbridge-dec-list-vol-out,...to decrease the audio volume from other participants.
-confbridge-dec-talk-vol-in,To decrease your speaking volume to other participants...
-confbridge-dec-talk-vol-out,...to decrease your speaking volume to other participants.
-confbridge-has-joined,...has joined the conference.
-confbridge-has-left,...has left the conference.
-confbridge-inc-list-vol-in,To increase the audio volume from other participants...
-confbridge-inc-list-vol-out,...to increase the audio volume from other participants.
-confbridge-inc-talk-vol-in,To increase your speaking volume to other participants...
-confbridge-inc-talk-vol-out,...to increase your speaking volume to other participants.
-confbridge-invalid,You have entered an invalid option.
-confbridge-join,<beep ascending>
-confbridge-leave-in,To leave the conference...
-confbridge-leave-out,...to leave the conference.
-confbridge-leave,<beep decending>
-confbridge-lock-extended,"...to lock, or unlock the conference. When a conference is locked only conference administrators can join."
-confbridge-lock-in,"To lock, or unlock the conference..."
-confbridge-lock-no-join,The conference is currently locked and cannot be joined.
-confbridge-lock-out,"...to lock, or unlock the conference."
-confbridge-locked,The conference is now locked.
-confbridge-menu-exit-in,To exit the menu...
-confbridge-menu-exit-out,...to exit the menu.
-confbridge-mute-extended,"...to mute, or unmute yourself. When you are muted you can not send audio to other participants. However you will still hear audio from other unmuted participants."
-confbridge-mute-in,To mute or unmute yourself...
-confbridge-mute-out,...to mute or unmute yourself.
-confbridge-muted,You are now muted.
-confbridge-only-one,There is currently one other participant in the conference.
-confbridge-only-participant,You are currently the only participant in the conference.
-confbridge-participants,...participants in the conference.
-confbridge-pin-bad,You have entered too many invalid personal identification numbers.
-confbridge-pin,"Please enter your personal identification number followed by the pound, or hash key."
-confbridge-remove-last-in,To remove the participant who most recently joined the conference...
-confbridge-remove-last-out,...to remove the participant who most recently joined the conference.
-confbridge-removed,You have been removed from the conference.
-confbridge-rest-list-vol-in,To reset the audio volume of the conference to the default level...
-confbridge-rest-list-vol-out,...to reset the audio volume of the conference to the default level.
-confbridge-rest-talk-vol-in,To reset your speaking volume to the default level...
-confbridge-rest-talk-vol-out,...to reset your speaking volume to the default level.
-confbridge-there-are,There are currently...
-confbridge-unlocked,The conference is now unlocked.
-confbridge-unmuted,You are no longer muted.
-de-activated,De-activated.
-demo-abouttotry,I am about to attempt an Inter-Asterisk Exchange connection to a demonstration server located at Digium.  In order for this to work you must already be connected to the Internet.  Please wait a moment while I attempt to make the connection.
-demo-congrats,"Congratulations.  You have successfully installed and executed the Asterisk open source PBX.  You have also installed a set of sample sounds and configuration files that should help you to get started.  Like a normal PBX you will navigate this demonstration by dialing digits.  If you are using a console channel driver instead of a real phone you can use the dial, answer, and hang up commands to simulate the actions of a standard telephone."
-demo-echodone,The echo test has been completed.
-demo-echotest,You are about to enter an echo test.  In this mode everything you say will be repeated back to you just as soon as it is received.  The purpose of this test is to give you an audible sense of the latency between you and the machine that is running the echo test application.  You may end the test by hanging up or by pressing the pound key.
-demo-enterkeywords,Please enter one or more keywords separated by * and then press the pound key.
-demo-instruct,"If you would like to learn more technical information about Asterisk dial 2 now.  If you'd like to test out the voice over IP capabilities of Asterisk you can dial 500 to attempt an Inter-Asterisk Exchange or IAX connection to a demonstration server at Digium.  In order for this test to work you will need to be connected to the Internet and have at least a 28.8 kilobit modem.  To execute an echo test dial 600.  This test is most useful when you have connected to this Asterisk server from a remote location.  The sample configuration also has a single user with extension 1234 and password 4242.  That user is configured to ring the console when their extension is dialed.  If you dial 1234 you can try to ring the console.  If the console is busy or unavailable you will be given the option to leave voicemail.  To check voice mail for the user dial extension 8500 to enter the voicemail system.  Finally,  you can press the pound key to disconnect from the PBX."
-demo-moreinfo,"Asterisk is an Open Source full-featured PBX and IVR platform that runs on the linux operating system.  For more information, visit www.asterisk.org."
-demo-nogo,I am afraid I was unable to create a connection to the Digium demonstration Asterisk server.  You may find some helpful debugging information on the Asterisk console.
-demo-nomatch,I'm sorry there are no matches for those keywords
-demo-thanks,Goodbye.  Thank you for trying out the Asterisk Open Source PBX.
-descending-2tone,[descending tones]
-dictate/both_help,"press * to toggle pause, press # to enter a new dictation filename"
-dictate/enter_filename,Enter a numeric dictation filename followed by # or just # to exit
-dictate/forhelp,press 0 for help
-dictate/pause,pause
-dictate/paused,paused
-dictate/play_help,"press 1 to switch to record mode, press 2 to toggle fast playback, press 7 to jump backwards, press 8 to jump forwards"
-dictate/playback,playback
-dictate/playback_mode,playback mode
-dictate/record,record
-dictate/record_help,"press 1 to switch to playback mode, press 8 to truncate the file and start over"
-dictate/record_mode,record mode
-dictate/truncating_audio,truncating audio
-digits/0,zero
-digits/10,ten
-digits/11,eleven
-digits/12,twelve
-digits/13,thirteen
-digits/14,fourteen
-digits/15,fifteen
-digits/16,sixteen
-digits/17,seventeen
-digits/18,eighteen
-digits/19,nineteen
-digits/1,one
-digits/20,twenty
-digits/2,two
-digits/30,thirty
-digits/3,three
-digits/40,forty
-digits/4,four
-digits/50,fifty
-digits/5,five
-digits/60,sixty
-digits/6,six
-digits/70,seventy
-digits/7,seven
-digits/80,eighty
-digits/8,eight
-digits/90,ninety
-digits/9,nine
-digits/a-m,A.M.
-digits/at,at
-digits/billion,billion
-digits/day-0,Sunday
-digits/day-1,Monday
-digits/day-2,Tuesday
-digits/day-3,Wednesday
-digits/day-4,Thursday
-digits/day-5,Friday
-digits/day-6,Saturday
-digits/dollars,dollars
-digits/h-10,tenth
-digits/h-11,eleventh
-digits/h-12,twelfth
-digits/h-13,thirteenth
-digits/h-14,fourteenth
-digits/h-15,fifteenth
-digits/h-16,sixteenth
-digits/h-17,seventeenth
-digits/h-18,eighteenth
-digits/h-19,nineteenth
-digits/h-1,first
-digits/h-20,twentieth
-digits/h-2,second
-digits/h-30,thirtieth
-digits/h-3,third
-digits/h-40,fourtieth
-digits/h-4,fourth
-digits/h-50,fiftieth
-digits/h-5,fifth
-digits/h-60,sixtieth
-digits/h-6,sixth
-digits/h-70,seventieth
-digits/h-7,seventh
-digits/h-80,eightieth
-digits/h-8,eighth
-digits/h-90,ninetieth
-digits/h-9,ninth
-digits/h-billion,billionth
-digits/h-hundred,hundredth
-digits/h-million,millionth
-digits/h-thousand,thousandth
-digits/hundred,hundred
-digits/million,million
-digits/minus,minus
-digits/mon-0,January
-digits/mon-10,November
-digits/mon-11,December
-digits/mon-1,February
-digits/mon-2,March
-digits/mon-3,April
-digits/mon-4,May
-digits/mon-5,June
-digits/mon-6,July
-digits/mon-7,August
-digits/mon-8,September
-digits/mon-9,October
-digits/oclock,o'clock
-digits/oh,oh
-digits/p-m,P.M.
-digits/pound,pound
-digits/star,star
-digits/thousand,thousand
-digits/today,today
-digits/tomorrow,tomorrow
-digits/yesterday,yesterday
-dir-first,letters of your party's first name.
-dir-firstlast,... letters of your party's first or last name.
-dir-instr,"If this is the person you are looking for press 1 now, otherwise please press star now."
-dir-intro-fn,Welcome to the directory.  Please enter the first three letters of your party's first name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.
-dir-intro,Welcome to the directory.  Please enter the first three letters of your party's last name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.
-dir-last,... letters of your party's last name.
-dir-multi1,Press ...
-dir-multi2,... for ...
-dir-multi3,... extension ...
-dir-multi9,Press 9 for more entries.
-dir-nomatch,No directory entries match your search.
-dir-nomore,There are no more compatible entries in the directory.
-dir-pls-enter,Please enter the first ...
-dir-usingkeypad,"... using your touchtone keypad.  Use the 7 key for Q, and the 9 key for Z."
-dir-welcome,Welcome to the directory
-disabled,Disabled.
-do-not-disturb,Do not disturb.
-enabled,Enabled.
-enter-num-blacklist,Please enter the number to be blacklisted.
-entr-num-rmv-blklist,Please enter the number to be removed from the blacklist.
-extension,Extension.
-feature-not-avail-line,That feature is not available on this line.
-followme/call-from,incoming call from
-followme/no-recording,you have an incoming call
-followme/options,"press 1 to accept this call, or 2 to reject it"
-followme/pls-hold-while-try,please hold while I try to locate the person you are calling
-followme/sorry,"I'm sorry, but I was unable to locate the person you are calling"
-followme/status,the person you are calling is not at their desk; I will try to locate them for you
-for,For.
-from-unknown-caller,From an unknown caller.
-goodbye,Goodbye!
-hello-world,Hello world.
-hello,Hello.
-hours,hours
-if-correct-press,"If this is correct, press..."
-im-sorry,I'm sorry.
-info-about-last-call,Information about your last call.
-invalid,"I am sorry, that's not a valid extension.  Please try again."
-is-in-use,Is in use.
-is-set-to,Is set to.
-is,Is.
-letters/a,a
-letters/ascii123,left brace
-letters/ascii124,pipe
-letters/ascii125,right brace
-letters/ascii126,tilde
-letters/ascii34,quote
-letters/ascii36,dollar sign
-letters/ascii37,percent
-letters/ascii38,ampersand
-letters/ascii39,tick
-letters/ascii40,open parenthesis
-letters/ascii41,close parenthesis
-letters/ascii42,star
-letters/ascii44,comma
-letters/ascii58,colon
-letters/ascii59,semicolon
-letters/ascii60,less than
-letters/ascii62,greater than
-letters/ascii63,question mark
-letters/ascii91,left bracket
-letters/ascii92,backslash
-letters/ascii93,right bracket
-letters/ascii94,caret
-letters/ascii95,underscore
-letters/ascii96,backtick
-letters/asterisk,asterisk
-letters/at,at [@]
-letters/b,b
-letters/c,c
-letters/d,d
-letters/dash,dash [-]
-letters/dollar,dollar [$]
-letters/dot,dot [.]
-letters/e,e
-letters/equals,equals [=]
-letters/exclaimation-point,exclaimation-point [!]
-letters/f,f
-letters/g,g
-letters/h,h
-letters/i,i
-letters/j,j
-letters/k,k
-letters/l,l
-letters/m,m
-letters/n,n
-letters/o,o
-letters/p,p
-letters/plus,plus [+]
-letters/q,q
-letters/r,r
-letters/s,s
-letters/slash,slash [/]
-letters/space,space [ ]
-letters/t,t
-letters/u,u
-letters/v,v
-letters/w,w
-letters/x,x
-letters/y,y
-letters/z,z
-letters/zed,zed
-location,Location.
-lowercase,lowercase
-minute,minute
-minutes,minutes
-num-was-successfully,The number was successfully...
-number-not-answering,The number is not answering.
-number,Number.
-one-moment-please,"One moment, please."
-pbx-invalid,"I am sorry, that's not a valid extension.  Please try again."
-pbx-invalidpark,"I am sorry, there is no call parked on that extension.  Please try again."
-pbx-parkingfailed,Parking attempt failed.
-pbx-transfer,Transfer.
-phonetic/9_p,niner
-phonetic/a_p,alpha
-phonetic/b_p,bravo
-phonetic/c_p,charlie
-phonetic/d_p,delta
-phonetic/e_p,echo
-phonetic/f_p,foxtrot
-phonetic/g_p,golf
-phonetic/h_p,hotel
-phonetic/i_p,india
-phonetic/j_p,juliet
-phonetic/k_p,kilo
-phonetic/l_p,lima
-phonetic/m_p,mike
-phonetic/n_p,november
-phonetic/o_p,oscar
-phonetic/p_p,papa
-phonetic/q_p,quebec
-phonetic/r_p,romeo
-phonetic/s_p,sierra
-phonetic/t_p,tango
-phonetic/u_p,uniform
-phonetic/v_p,victor
-phonetic/w_p,whiskey
-phonetic/x_p,xray
-phonetic/y_p,yankee
-phonetic/z_p,zulu
-please-try-again,Please try again.
-please-try-call-later,Please try your call again later.
-pls-hold-while-try,Please hold while we try to connect you.
-pls-try-call-later,Please try your call again later.
-pm-invalid-option,That option is invalid. Please try again.
-priv-callee-options,"Dial 1 if you wish this caller to reach you directly now, and in the future.  Dial 2 if you wish to send this caller to voicemail now and forevermore.  Dial 3 to send this caller to the torture menus, now and forevermore.  Dial 4 to send this caller to a polite ""don't call"" menu, now and forevermore.  Dial 5 to allow this caller to come straight thru to you in the future, but just this once, send them to voicemail."
-priv-callpending,"I have a caller waiting, who introduces themselves as:"
-priv-introsaved,"Thank you. Please hold, while I attempt to connect you with your party!"
-priv-recordintro,"At the tone, please say your name."
-privacy-incorrect,"I'm sorry, that number is not valid."
-privacy-prompt,"Please enter your phone number, starting with the area code."
-privacy-thankyou,Thank you.
-privacy-to-blacklist-last-caller,The last caller was...
-privacy-unident,The party you are trying to reach does not accept unidentified calls.
-queue-callswaiting,Waiting to speak with a representative
-queue-holdtime,The estimated hold time is currently
-queue-less-than,less than
-queue-minute,minute
-queue-minutes,minutes
-queue-periodic-announce,All of our represenatives are currently busy. Please stay on the line and your call will be answered by the next available representative.
-queue-quantity1,"Currently, there are more than ..."
-queue-quantity2,... callers waiting to speak with a representative.
-queue-reporthold,Hold time
-queue-seconds,Seconds
-queue-thankyou,Thank you for your patience
-queue-thereare,You are currently caller number
-queue-youarenext,Your call is now first in line and will be answered by the next available representative.
-removed,Removed.
-screen-callee-options,"You have these options: Dial 1 if you wish to immediately connect to the incoming call.  Dial 2 if you wish to send this caller to voicemail.  Dial 3 to send this caller to the torture menus.  Dial 4 to send this caller to a polite ""don't call"" menu."
-second,second
-seconds,seconds
-silence/10,(10 seconds of silence)
-silence/1,(1 second of silence)
-silence/2,(2 seconds of silence)
-silence/3,(3 seconds of silence)
-silence/4,(4 seconds of silence)
-silence/5,(5 seconds of silence)
-silence/6,(6 seconds of silence)
-silence/7,(7 seconds of silence)
-silence/8,(8 seconds of silence)
-silence/9,(9 seconds of silence)
-simul-call-limit-reached,Simultaneous call limit reached.
-something-terribly-wrong,Something is terribly wrong!
-sorry-youre-having-problems,Sorry you're having problems.
-sorry,We're sorry.
-speed-dial-empty,The speed dial entry you've accessed is empty.
-speed-dial,Speed-dial.
-spy-agent,Agent
-spy-console,Console
-spy-dahdi,DAHDI
-spy-h323,H.323
-spy-iax2,"IAX (note: does not say ""2"")"
-spy-iax,IAX
-spy-jingle,Jingle
-spy-local,Local
-spy-mgcp,MGCP
-spy-misdn,M I S D N
-spy-mobile,Bluetooth Mobile
-spy-nbs,N B S
-spy-sip,SIP
-spy-skinny,Skinny
-spy-unistim,Unistim
-spy-usbradio,USB Radio
-spy-zap,Zap
-ss-noservice,The number you have dialed is not in service. Please check the number and try again.
-telephone-number,Telephone number.
-time,Time.
-to-call-this-number,To call this number.
-to-extension,To extension.
-to-listen-to-it,To listen to it.
-to-rerecord-it,To re-record it.
-transfer,Please hold while I try that extension.
-tt-allbusy,All representatives of the household are currently assisting other telemarketers.  Please hold and your call will be answered in the order it was received.
-tt-monkeys,[sound of monkeys screaming]
-tt-monkeysintro,They have been carried away by monkeys
-tt-somethingwrong,Something is terribly wrong
-tt-weasels,Weasels have eaten our phone system
-unidentified-no-callback,Un-indentified or witheld and therefore cannot be called back.
-uppercase,uppercase
-vm-advopts,press 3 for advanced options
-vm-and,and
-vm-calldiffnum,press 2 to enter a different number
-vm-changeto,Change to which folder?
-vm-Cust1,folder 5
-vm-Cust2,folder 6
-vm-Cust3,folder 7
-vm-Cust4,folder 8
-vm-Cust5,folder 9
-vm-delete,Press 7 to delete this message.
-vm-deleted,Message deleted.
-vm-dialout,please wait while i connect your call
-vm-duration,This message lasts ...
-vm-enter-num-to-call,please enter the number you wish to call
-vm-extension,extension
-vm-Family,family
-vm-first,first
-vm-for,for
-vm-forward-multiple,"press 1 to send this message, or 2 to add another recipient."
-vm-forward,"Press 1 to enter an extension, press 2 to use the directory"
-vm-forwardoptions,press 1 to prepend a message or 2 to forward the message without prepending
-vm-Friends,friends
-vm-from-extension,message from extension
-vm-from-phonenumber,message from phone number
-vm-from,from
-vm-goodbye,Goodbye
-vm-helpexit,Press star for help or pound to exit.
-vm-INBOX,new
-vm-incorrect-mailbox,Login incorrect.  Mailbox?
-vm-incorrect,Login incorrect.
-vm-instructions,To look into your messages press 1 now.  You may quit voicemail at any time by pressing the pound key.
-vm-intro,Please leave your message after the tone.  When done hang up or press the pound key. (simple tone sound plays)
-vm-invalid-password,That password does not meet the minimum requirements for this mailbox.  Please try again.
-vm-invalidpassword,That is not a valid password.  Please try again.
-vm-isonphone,is on the phone
-vm-isunavail,is unavailable
-vm-last,last
-vm-leavemsg," Press 5 to leave a message"
-vm-login,Comedian Mail.  Mailbox?
-vm-mailboxfull,sorry but the user's mail box can't accept more messages
-vm-marked-nonurgent,Urgent status removed.
-vm-marked-urgent,Message marked urgent.
-vm-message,message
-vm-messages,messages
-vm-minutes,minutes
-vm-mismatch,The passwords you entered and re-entered did not match.  Please try again.
-vm-msgforwarded,Your message has been successfully forwarded.
-vm-msginstruct,"To hear the next message press 6, to repeat this message press 5, to hear the previous message press 4, to delete or undelete this message press zero, to quit voicemail press pound."
-vm-msgsaved,Your message has been saved.
-vm-newpassword,Please enter your new password followed by the pound key.
-vm-newuser,"Welcome to Comedian Mail. First, I will guide you through a short setup process."
-vm-next,Press 6 to play the next message.
-vm-no,no
-vm-nobodyavail,Nobody is available to take your call at the moment
-vm-nobox,you cannot reply to this message because the sender does not have a mailbox
-vm-nomore,No more messages.
-vm-nonumber,I'm afraid i don't know who sent this message
-vm-num-i-have,the number i have is
-vm-Old,old
-vm-onefor-full,Press one to listen to ...
-vm-onefor,Press 1 for
-vm-options,"Press 1 to record your unavailable message, press 2 to record your busy message, press 3 to record your name, press 4 to record your temporary greeting, press 5 to change your password, press star to return to the main menu."
-vm-opts-full,press 2 to access messages saved in other folders.  Press 3 to record a message for another mailbox.  Press 0 for greetings and password management.
-vm-opts,"Press 2 to change folders, press 3 for advanced options, press zero for mailbox options."
-vm-passchanged,Your passwords have been changed.
-vm-password,password
-vm-pls-try-again,please try again
-vm-press,press
-vm-prev,Press 4 for the previous message
-vm-reachoper,press 0 to reach an operator
-vm-rec-busy,After the tone say your busy message and then press the pound key.
-vm-rec-name,After the tone say your name and then press the pound key.
-vm-rec-temp,"After the tone, say your temporary message, and then press the pound key."
-vm-rec-unv,After the tone say your unavailable message and then press the pound key.
-vm-received,received
-vm-record-prepend,"At the tone, please record an introduction to the forwarded message.  When done, press the pound sign."
-vm-reenterpassword,Please re-enter your password followed by the pound key.
-vm-repeat,Press 5 to repeat the current message.
-vm-review-nonurgent,Press 4 to remove the urgent status of this message.
-vm-review-urgent,Press 4 to mark this message as urgent.
-vm-review,press 1 to accept this recording press 2 to listen to it press 3 to rerecord your message
-vm-saved,saved
-vm-savedto,saved to
-vm-savefolder,Which folder should I save the message to?
-vm-savemessage,or 9 to save this message
-vm-saveoper,"press 1 to accept this recording, otherwise, please continue to hold"
-vm-sorry,I'm sorry I did not understand your response.
-vm-star-cancel,press star to cancel
-vm-starmain,press star to return to the main menu
-vm-tempgreetactive,Your temporary greeting is currently active
-vm-tempgreeting2,"press 1 to record your temporary greeting, or press 2 to erase your temporary greeting"
-vm-tempgreeting,press 1 to record your temporary greeting
-vm-tempremoved,Your temporary greeting has been removed
-vm-then-pound,then press pound
-vm-theperson,The person at extension
-vm-tmpexists,"There is a temporary greeting, which overrides your standard greetings."
-vm-tocallback,press 2 to call the person who sent this message
-vm-tocallnum,press 1 to call this number
-vm-tocancel,or pound to cancel.
-vm-tocancelmsg,press star to cancel this message
-vm-toenternumber,press 1 to enter a number
-vm-toforward,Press 8 to forward the message to another user
-vm-tohearenv,press 3 to hear the message envelope
-vm-tomakecall,press 4 to place an outgoing call
-vm-tooshort,your message is too short
-vm-toreply,press 1 to send a reply
-vm-torerecord,press 3 to rerecord your message
-vm-undelete,Press 7 to undelete this message
-vm-undeleted,Message undeleted.
-vm-unknown-caller,from an unknown caller
-vm-Urgent,urgent
-vm-whichbox,"To leave a message, please enter a mailbox number."
-vm-Work,work
-vm-youhave,you have
-with,With.
-you-entered,You entered.
-your,Your.
+index,english,german
+activated,Activated.,Aktiviert.
+added,Added.,Hinzugefügt.
+agent-alreadyon,That agent is already logged on.  Please enter your agent number followed by the pound key.,Dieser Teilnehmer ist bereits eingeloggt. Bitte geben Sie Ihre Rufnummer gefolgt von der Rautetaste ein.
+agent-incorrect,Login incorrect.  Please enter your agent number followed by the pound key.,Login fehlerhaft. Bitte geben Sie Ihre Rufnummer gefolgt von der Rautetaste ein.
+agent-loggedoff,Agent Logged off.,Teilnehmer ausgeloggt.
+agent-loginok,Agent logged in.,Teilnehmer eingeloggt.
+agent-newlocation,"Please enter a new extension, followed by pound.",Bitte neue Rufnummer gefolgt von der Rautetaste eingeben.
+agent-pass,Please enter your password followed by the pound key.,Bitte geben Sie Ihr Passwort gefolgt von der Rautetaste ein.
+agent-user,Agent login.  Please enter your agent number followed by the pound key.,Teilnehmeranmeldung. Bitte geben Sie Ihre Rufnummer gefolgt von  der Rautetaste ein.
+all-circuits-busy-now,All circuits are busy now.,Alle Leitungen sind derzeit belegt.
+ascending-2tone,[ascending tones],COPY
+astcc-followed-by-the-pound-key,Followed by the pound key.,Gefolgt von der Rautetaste.
+at-tone-time-exactly,"At the sound of the tone, the time will be exactly...",Bei dem nächsten Signalton ist es
+auth-incorrect,Password incorrect.  Please enter your password followed by the pound key.,Passwort falsch. Bitte geben Sie Ihr Passwort gefolgt von der Rautetaste ein.
+auth-thankyou,Thank you.,Dankeschön.
+basic-pbx-ivr-main,"Thank you for calling Super Awesome Company, Waldo's premier provider of perfect products. If you know your party's extension, you may dial it at any time. To establish a sales partnership, press one. To speak with a customer advocate, press two. For accounting and other receivables, press three. For a company directory, press four. For an operator, press zero.","Vielen Dank, dass Sie die Super Klasse Firma angerufen haben, Waldos führender Hersteller von perfekten Produkten. Wenn Sie die Durchwahl Ihres Gesprächspartners kennen, können Sie diese jederzeit wählen. Für eine Verkaufspartnerschaft, drücken Sie bitte die 1. Um mit einem Kundenbetreuer zu sprechen, drücken Sie die 2. Für Buchhaltung und andere Forderungen, drücken Sie die 3. Für ein Telefonverzeichnis drücken Sie die 3. Um mit einem Telefonisten verbunden zu werden, drücken Sie die 0."
+beep,[this is a simple beep tone],COPY
+beeperr,[this is an error beep tone],COPY
+call-forwarding,Call forwarding.,Anrufweiterleitung.
+call-fwd-no-ans,Call-Forward on No Answer.,Anrufweiterleitung falls nicht erreichbar
+call-fwd-on-busy,Call-Forward on Busy.,Anrufweiterleitung falls besetzt
+call-fwd-unconditional,Call-Forward Unconditional.,Anrufweiterleitung sofort
+call-waiting,Call waiting.,Anklopfen.
+calling,Calling.,Wählt.
+cancelled,Cancelled.,Abgebrochen.
+cannot-complete-as-dialed,Your call cannot be completed as dialed.,Ihr Anruf kann nicht wie gewählt durchgeführt werden.
+check-number-dial-again,Please check the number and dial again.,Bitte überprüfen Sie die Nummer und wählen Sie erneut.
+conf-adminmenu-162,"Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit.","Bitte drücken Sie 1 um Ihre Sprachübertragung an- oder auszuschalten, 2 um die Konferenz zu sperren und freizuschalten, 3 um den letzten Teilnehmer auszuschließen, 4 oder 6 um die Konferenzlautstärke zu vermindern oder zu erhöhen, 5 um die Konferenz zu erweitern, 7 oder 9 und Ihre Lautstärke zu vermindern oder zu erhöhen oder 8 um die Konferenz zu verlassen."
+conf-adminmenu-18,"Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 for more options.","Bitte drücken Sie 1 um Ihre Sprachübertragung an- oder auszuschalten, 2 um die Konferenz zu sperren und freizuschalten, 3 um den letzten Teilnehmer auszuschließen, 4 oder 6 um die Konferenzlautstärke zu vermindern oder zu erhöhen, 5 um die Konferenz zu erweitern, 7 oder 9 um Ihre Lautstärke zu vermindern oder zu erhöhen oder 8 für weitere Optionen."
+conf-adminmenu-menu8,"Press 1 to list users currently in the conference, 2 to kick all non-administrator users, 3 to mute or umute all non-administrator users, 4 to record this conference, or 8 to exit this menu and return to the conference.","Drücken Sie 1 um eine Liste aller Teilnehmer zu erhalten, 2 um alle nicht administrativen Teilnehmer aus der Konferenz zu entfernen, 3 um alle nicht administrativen Teilnehmer stumm oder laut zu schalten, 4 um diese Konferenz aufzuzeichnen, oder 8 um dieses Menü zu verlassen und zur Konferenz zurückzukehren."
+conf-adminmenu,"Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit.","Bitte drücken Sie 1 um sich selbst stumm oder laut zu schalten, 2 um die Konferenz zu sperren oder zu freizugeben, 3 um den letzten Teilnehmer auszuschließen, 4 oder 6 um die Konferenzlautstärke zu vermindern oder zu erhöhen, 7 oder 9 um Ihre Lautstärke zu vermindern oder zu erhöhen oder 8 um das Menü zu verlassen."
+conf-enteringno,You are entering conference number,Sie geben eine Konferenznummer ein
+conf-errormenu,Invalid Choice,Ungültige Auswahl
+conf-extended,The conference has been extended.,Die Konferenz wurde erweitert.
+conf-full,That conference is full.,Diese Konferenz ist voll.
+conf-getchannel,Please enter the channel number followed by the pound key.,Bitte geben Sie die Kanalnummer gefolgt von der Rautetaste ein.
+conf-getconfno,Please enter your conference number followed by the pound key.,Bitte geben Sie Ihre Konferenznummer gefolgt von der Rautetaste ein.
+conf-getpin,Please enter the conference pin number.,Bitte geben Sie die PIN Nummer für diese Konferenz ein.
+conf-hasjoin,is now in the conference.,befindet sich jetzt in der Konferenz.
+conf-hasleft,has left the conference.,hat die Konferenz verlassen.
+conf-invalid,That is not a valid conference number.  Please try again.,Das ist keine gültige Konferenznummer. Bitte versuchen Sie es nocheinmal.
+conf-invalidpin,That pin is invalid for this conference.,Diese PIN ist ungültig für die Konferenz.
+conf-kicked,You have been kicked from this conference,Sie wurden aus dieser Konferenz ausgeschlossen.
+conf-leaderhasleft,The leader has left the conference.,Der Leiter hat die Konferenz verlassen.
+conf-locked,This conference is locked!,Diese Konferenz ist gesperrt!
+conf-lockednow,The conference is now locked,Diese Konferenz ist jetzt gesperrt.
+conf-muted,You are now muted,Sie sind jetzt stumm geschalten.
+conf-noempty,No empty conferences currently exist.,Es existieren derzeit keine leeren Konferenzräume.
+conf-nonextended,The conference cannot be extended.,Die Konferenz kann nicht erweitert werden.
+conf-now-muted,The conference is now muted.,Die Konferenz ist jetzt stumm geschalten.
+conf-now-recording,The conference is now being recorded.,Die Konferenz wird jetzt aufgezeichnet.
+conf-now-unmuted,The conference is now unmuted.,Die Stummschaltung der Konferenz wurde beendet.
+conf-onlyone,There is currently one other participant in the conference.,Es gibt derzeit einen weiteren Teilnehmer der Konferenz.
+conf-onlyperson,You are currently the only person in this conference.,Sie sind derzeit der einzige Teilnehmer der Konferenz.
+conf-otherinparty,other participants in the conference,andere Teilnehmer an dieser Konferenz
+conf-placeintoconf,You will now be placed into the conference.,Sie werden jetzt in die Konferenz vermittelt.
+conf-roll-callcomplete,Playback of the list of people attending is complete.,Wiedergabe der Teilnehmerliste ist abgeschlossen.
+conf-thereare,There are currently,Es gibt derzeit
+conf-unlockednow,The conference is now unlocked,Die Konferenz ist jetzt freigeschalten
+conf-unmuted,You are now unmuted,Ihre Stummschaltung wurde beendet
+conf-usermenu-162,"Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit this menu and return to the conference.","Bitte drücken Sie 1 um Ihre Sprachübertragung an- oder auszuschalten, 4 oder 6 um die Konferenzlautstärke zu vermindern oder zu erhöhen, 5 um die Konferenz zu erweitern, 7 oder 9 um Ihre Lautstärke zu vermindern oder zu erhöhen oder 8 um das Menü zu verlassen und zur Konferenz zurückzukehren."
+conf-usermenu,"Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit.","Bitte drücken Sie 1 um Ihre Sprachübertragung an- oder auszuschalten, 4 oder 6 um die Konferenzlautstärke zu vermindern oder zu erhöhen, 7 oder 9 um Ihre Lautstärke zu vermindern oder zu erhöhen oder 8 um das Menü zu verlassen."
+conf-userswilljoin,users will join the conference.,Teilnehmer werden der Konferenz beitreten.
+conf-userwilljoin,user will join the conference.,Teilnehmer wird der Konferenz beitreten.
+conf-waitforleader,The conference will begin when the leader arrives.,Die Konferenz wird gestartet sobald der Leiter eintrifft.
+confbridge-begin-glorious-a,the conference will begin when our glorious leader arrives,Die Konferenz wird gestartet sobald der Leiter eintrifft.
+confbridge-begin-glorious-b,the conference will begin when our glorious leader arrives,Die Konferenz wird gestartet sobald der Leiter eintrifft.
+confbridge-begin-glorious-c,the conference will begin when our glorious leader arrives,Die Konferenz wird gestartet sobald der Leiter eintrifft.
+confbridge-begin-leader,the conference will begin when the leader arrives,Die Konferenz wird gestartet sobald der Leiter eintrifft.
+confbridge-binaural-off,3D audio disabled,3D Audio deaktiviert
+confbridge-binaural-on,3D audio enabled,3D Audio aktiviert
+confbridge-conf-begin,the conference will now begin,Die Konferenz wird jetzt beginnen.
+confbridge-conf-end,the conference has ended,Die Konferenz wurde beendet.
+confbridge-dec-list-vol-in,To decrease the audio volume from other participants...,Um die Lautstärke der anderen Teilnehmer zu reduzieren
+confbridge-dec-list-vol-out,...to decrease the audio volume from other participants.,Um die Lautstärke der anderen Teilnehmer zu reduzieren
+confbridge-dec-talk-vol-in,To decrease your speaking volume to other participants...,Um Ihre Lautstärke für andere Teilnehmer zu reduzieren
+confbridge-dec-talk-vol-out,...to decrease your speaking volume to other participants.,Um Ihre Lautstärke für andere Teilnehmer zu reduzieren
+confbridge-has-joined,...has joined the conference.,ist der Konferenz beigetreten.
+confbridge-has-left,...has left the conference.,hat die Konferenz verlassen.
+confbridge-inc-list-vol-in,To increase the audio volume from other participants...,Um die Lautstärke der anderen Teilnehmer zu erhöhen
+confbridge-inc-list-vol-out,...to increase the audio volume from other participants.,Um die Lautstärke der anderen Teilnehmer zu erhöhen
+confbridge-inc-talk-vol-in,To increase your speaking volume to other participants...,Um Ihre Lautstärke für andere Teilnehmer zu erhöhen
+confbridge-inc-talk-vol-out,...to increase your speaking volume to other participants.,Um Ihre Lautstärke für andere Teilnehmer zu erhöhen
+confbridge-invalid,You have entered an invalid option.,Sie haben eine ungültige Option eingegeben.
+confbridge-join,<beep ascending>,COPY
+confbridge-leave-in,To leave the conference...,Um die Konferenz zu verlassen
+confbridge-leave-out,...to leave the conference.,Um die Konferenz zu verlassen
+confbridge-leave,<beep decending>,COPY
+confbridge-lock-extended,"...to lock, or unlock the conference. When a conference is locked only conference administrators can join.",um die Konferenz zu sperren oder wieder freizugeben. Wenn eine Konferenz gesperrt ist können sich nur administrative Teilnehmer verbinden.
+confbridge-lock-in,"To lock, or unlock the conference...",Um die Konferenz zu sperren oder freizugeben
+confbridge-lock-no-join,The conference is currently locked and cannot be joined.,Die Konferenz ist derzeit gesperrt und eine Verbindung ist nicht möglich.
+confbridge-lock-out,"...to lock, or unlock the conference.",Um die Konferenz zu sperren oder freizugeben
+confbridge-locked,The conference is now locked.,Die Konferenz ist derzeit gesperrt.
+confbridge-menu-exit-in,To exit the menu...,Um das Menü zu verlassen
+confbridge-menu-exit-out,...to exit the menu.,Um das Menü zu verlassen
+confbridge-mute-extended,"...to mute, or unmute yourself. When you are muted you can not send audio to other participants. However you will still hear audio from other unmuted participants.","um sich selber stumm oder laut zu schalten. Während einer Stummschaltung können Sie keine Sprache an andere Teilnehmer übertragen. Sie sind aber weiter in der Lage, andere nicht stumme Teilnehmer zu hören."
+confbridge-mute-in,To mute or unmute yourself...,Um sich selber stumm oder laut zu schalten.
+confbridge-mute-out,...to mute or unmute yourself.,Um sich selber stumm oder laut zu schalten.
+confbridge-muted,You are now muted.,Sie sind jetzt stumm geschalten.
+confbridge-only-one,There is currently one other participant in the conference.,Es gibt derzeit einen weiteren Teilnehmer der Konferenz.
+confbridge-only-participant,You are currently the only participant in the conference.,Sie sind derzeit der einzige Teilnehmer der Konferenz.
+confbridge-participants,...participants in the conference.,Teilnehmer in der Konferenz
+confbridge-pin-bad,You have entered too many invalid personal identification numbers.,Sie haben zu viele ungültige PIN Nummern eingegeben.
+confbridge-pin,"Please enter your personal identification number followed by the pound, or hash key.",Bitte geben Sie Ihre PIN gefolgt von der Rautetaste ein.
+confbridge-remove-last-in,To remove the participant who most recently joined the conference...,"Um den Teilnehmer zu entfernen, der der Konferenz als letzter beigetreten ist."
+confbridge-remove-last-out,...to remove the participant who most recently joined the conference.,"Um den Teilnehmer zu entfernen, der der Konferenz als letzter beigetreten ist."
+confbridge-removed,You have been removed from the conference.,Sie wurden aus dieser Konferenz entfernt.
+confbridge-rest-list-vol-in,To reset the audio volume of the conference to the default level...,Um die Lautstärke der Konferenz auf den Standardwert zurückzusetzen
+confbridge-rest-list-vol-out,...to reset the audio volume of the conference to the default level.,Um die Lautstärke der Konferenz auf den Standardwert zurückzusetzen
+confbridge-rest-talk-vol-in,To reset your speaking volume to the default level...,Um Ihre Lautstärke auf den Standardwert zurückzusetzen
+confbridge-rest-talk-vol-out,...to reset your speaking volume to the default level.,Um Ihre Lautstärke auf den Standardwert zurückzusetzen
+confbridge-there-are,There are currently...,Es gibt aktuell
+confbridge-unlocked,The conference is now unlocked.,Die Konferenz wurde jetzt freigegeben.
+confbridge-unmuted,You are no longer muted.,Sie sind nicht länger stumm geschalten.
+de-activated,De-activated.,Deaktiviert.
+demo-abouttotry,I am about to attempt an Inter-Asterisk Exchange connection to a demonstration server located at Digium.  In order for this to work you must already be connected to the Internet.  Please wait a moment while I attempt to make the connection.,"Ich werde jetzt eine Verbindung zwischen zwei Asterisk Servern mit einem Testserver von Digium versuchen. Dafür ist eine Internetverbindung erforderlich. Bitte warten Sie einen Moment während ich versuche, die Verbindung aufzubauen."
+demo-congrats,"Congratulations.  You have successfully installed and executed the Asterisk open source PBX.  You have also installed a set of sample sounds and configuration files that should help you to get started.  Like a normal PBX you will navigate this demonstration by dialing digits.  If you are using a console channel driver instead of a real phone you can use the dial, answer, and hang up commands to simulate the actions of a standard telephone.","Herzlichen Glückwunsch. Sie haben erfolgreich Asterisk, die quelloffene Telefonanlage installiert und ausgeführt. Sie haben außerdem einen Satz Beispielansagen und Konfigurationsdateien installiert der Ihnen bei der Einrichtung helfen sollte. Wie bei einer normalen Telefonanlage können Sie dieses Beispiel durch drücken von Ziffern Ihrer Telefontastatur steuern. Bei der Verwendung eines Konsolen Kanaltreibers statt eines Telefones können Sie die „dial“, „answer“ und „hang up“ Befehle verwenden um die Aktionen eines Standardtelefons zu simulieren."
+demo-echodone,The echo test has been completed.,Der Echotest wurde abgeschlossen.
+demo-echotest,You are about to enter an echo test.  In this mode everything you say will be repeated back to you just as soon as it is received.  The purpose of this test is to give you an audible sense of the latency between you and the machine that is running the echo test application.  You may end the test by hanging up or by pressing the pound key.,"Sie werden gleich einen Echotest durchführen. In diesem Modus wird alles was Sie sagen zu Ihnen zurückgesendet sobald es empfangen wird. Der Zweck des Tests ist es, Ihnen einen hörbaren Eindruck der Latenz zwischen Ihnen und dem Server, auf dem diese Anwendung ausgeführt wird, zu vermitteln. Sie können den Test jederzeit beenden in dem Sie auflegen oder die Rautetaste drücken."
+demo-enterkeywords,Please enter one or more keywords separated by * and then press the pound key.,Bitte geben Sie ein oder mehrere Schlüsselwörter getrennt von der Sterntaste ein und drücken Sie zum Abschluss die Rautetaste.
+demo-instruct,"If you would like to learn more technical information about Asterisk dial 2 now.  If you'd like to test out the voice over IP capabilities of Asterisk you can dial 500 to attempt an Inter-Asterisk Exchange or IAX connection to a demonstration server at Digium.  In order for this test to work you will need to be connected to the Internet and have at least a 28.8 kilobit modem.  To execute an echo test dial 600.  This test is most useful when you have connected to this Asterisk server from a remote location.  The sample configuration also has a single user with extension 1234 and password 4242.  That user is configured to ring the console when their extension is dialed.  If you dial 1234 you can try to ring the console.  If the console is busy or unavailable you will be given the option to leave voicemail.  To check voice mail for the user dial extension 8500 to enter the voicemail system.  Finally,  you can press the pound key to disconnect from the PBX.","Wenn Sie mehr technische Informationen über Asterisk erfahren möchten, drücken Sie bitte die 2. Wenn Sie gerne die Voice over IP Fähigkeiten von Asterisk ausprobieren möchten, können Sie die 500 wählen um eine Verbindung zwischen zwei Asterisk Servern, auch IAX Verbindung genannt, zu einem Testserver von Digium herzustellen. Für diesen Test benötigen Sie eine Internetverbindung und mindestens ein 28,8 Kilobit Modem. Um einen Echotest auszuführen wählen Sie 600. Diese Test ist nützlich wenn Sie sich zu diesem Asterisk Server von außerhalb des lokalen Netzwerks verbinden. Die Beispielkonfiguration hat außerdem einen einzelnen Benutzer mit der Rufnummer 1234 und dem Passwort 4242. Dieser Benutzer ist konfiguriert um einen Ruf auf der Konsole anzuzeigen, Sie können den Konsolenruf testen in dem Sie 1234 wählen. Wenn die Konsole besetzt oder nicht verfügbar ist wird Ihnen die Möglichkeit geboten, eine Nachricht auf dem Anrufbeantworter zu hinterlassen. Um den Anrufbeantworter abzuhören wählen Sie die 8500. Außerdem können Sie die Rautetaste drücken, um die Verbindung zur Telefonanlage zu trennen."
+demo-moreinfo,"Asterisk is an Open Source full-featured PBX and IVR platform that runs on the linux operating system.  For more information, visit www.asterisk.org.","Asterisk ist ein quelloffenes, voll funktionsfähiges Telefon- und Sprachdialogsystem das auf dem Linux Betriebssystem arbeitet. Für weitere Informationen, besuchen Sie www.asterisk.org."
+demo-nogo,I am afraid I was unable to create a connection to the Digium demonstration Asterisk server.  You may find some helpful debugging information on the Asterisk console.,"Leider war ich nicht in der Lage, eine Verbindung zum Asterisk Testserver bei Digium herzustellen. Eventuell finden Sie Debugging Informationen in der Asterisk Konsole."
+demo-nomatch,I'm sorry there are no matches for those keywords,"Es tut mir leid, es gibt keine Übereinstimmungen für diese Schlüsselwörter."
+demo-thanks,Goodbye.  Thank you for trying out the Asterisk Open Source PBX.,"Auf Wiedersehen. Vielen Dank dass Sie Asterisk, die quelloffene Telefonanlage, ausprobieren."
+descending-2tone,[descending tones],COPY
+dictate/both_help,"press * to toggle pause, press # to enter a new dictation filename",Drücken Sie die Sterntaste um eine Pause zu aktivieren oder zu deaktivieren. Drücken Sie die Rautetaste um einen neuen Dateinamen für das Diktat zu vergeben
+dictate/enter_filename,Enter a numeric dictation filename followed by # or just # to exit,Geben Sie einen numerischen Dateinamen für das Diktat gefolgt von der Rautetaste ein oder nur die Rautetaste um zu beenden
+dictate/forhelp,press 0 for help,Drücken Sie 0 für Hilfe
+dictate/pause,pause,Pause
+dictate/paused,paused,Pausiert
+dictate/play_help,"press 1 to switch to record mode, press 2 to toggle fast playback, press 7 to jump backwards, press 8 to jump forwards","Drücken Sie 1 um in den Aufzeichnungsmodus zu wechseln, drücken Sie 2 um die Schnellwiedergabe umzuschalten, drücken Sie 7 um zurückzuspringen, drücken Sie 8 um vorwärts zu springen"
+dictate/playback,playback,Wiedergabe
+dictate/playback_mode,playback mode,Wiedergabemodus
+dictate/record,record,Aufzeichnung
+dictate/record_help,"press 1 to switch to playback mode, press 8 to truncate the file and start over","Drücken Sie 1 um zum Wiedergabemodus zu wechseln, drücken Sie 8 um das Diktat zurückzusetzen und neu zu beginnen"
+dictate/record_mode,record mode,Aufzeichnungsmodus
+dictate/truncating_audio,truncating audio,"Aufnahme wird zurückgesetzt
+"
+digits/0,zero,Null
+digits/10,ten,Zehn
+digits/11,eleven,Elf
+digits/12,twelve,Zwölf
+digits/13,thirteen,Dreizehn
+digits/14,fourteen,Vierzehn
+digits/15,fifteen,Fünfzehn
+digits/16,sixteen,Sechzehn
+digits/17,seventeen,Siebzehn
+digits/18,eighteen,Achtzehn
+digits/19,nineteen,Neunzehn
+digits/1,one,Eins
+digits/20,twenty,Zwanzig
+digits/2,two,Zwei
+digits/30,thirty,Dreißig
+digits/3,three,Drei
+digits/40,forty,Vierzig
+digits/4,four,Vier
+digits/50,fifty,Fünfzig
+digits/5,five,Fünf
+digits/60,sixty,Sechzig
+digits/6,six,Sechs
+digits/70,seventy,Siebzig
+digits/7,seven,Sieben
+digits/80,eighty,Achtzig
+digits/8,eight,Acht
+digits/90,ninety,Neunzig
+digits/9,nine,Neun
+digits/a-m,A.M.,Vormittags
+digits/at,at,@
+digits/billion,billion,Milliarde
+digits/day-0,Sunday,Sonntag
+digits/day-1,Monday,Montag
+digits/day-2,Tuesday,Dienstag
+digits/day-3,Wednesday,Mittwoch
+digits/day-4,Thursday,Donnerstag
+digits/day-5,Friday,Freitag
+digits/day-6,Saturday,Samstag
+digits/dollars,dollars,Dollar
+digits/h-10,tenth,Zehntel
+digits/h-11,eleventh,Elftel
+digits/h-12,twelfth,Zwölftel
+digits/h-13,thirteenth,Dreizehntel
+digits/h-14,fourteenth,Vierzehntel
+digits/h-15,fifteenth,Fünfzehntel
+digits/h-16,sixteenth,Sechzehntel
+digits/h-17,seventeenth,Siebzehntel
+digits/h-18,eighteenth,Achtzehntel
+digits/h-19,nineteenth,Neunzehntel
+digits/h-1,first,Eintel
+digits/h-20,twentieth,Zwanzigstel
+digits/h-2,second,Halbe
+digits/h-30,thirtieth,Dreißigstel
+digits/h-3,third,Drittel
+digits/h-40,fourtieth,Vierzigstel
+digits/h-4,fourth,Viertel
+digits/h-50,fiftieth,Fünfzigstel
+digits/h-5,fifth,Fünftel
+digits/h-60,sixtieth,Sechzigstel
+digits/h-6,sixth,Sechstel
+digits/h-70,seventieth,Siebzigstel
+digits/h-7,seventh,Siebtel
+digits/h-80,eightieth,Achtzigstel
+digits/h-8,eighth,Achtel
+digits/h-90,ninetieth,Neunzigstel
+digits/h-9,ninth,Neuntel
+digits/h-billion,billionth,Millardstel
+digits/h-hundred,hundredth,Hunderstel
+digits/h-million,millionth,Millionstel
+digits/h-thousand,thousandth,Taunsendstel
+digits/hundred,hundred,Hundert
+digits/million,million,Millionstel
+digits/minus,minus,Minus
+digits/mon-0,January,Januar
+digits/mon-10,November,November
+digits/mon-11,December,Dezember
+digits/mon-1,February,Februar
+digits/mon-2,March,März
+digits/mon-3,April,April
+digits/mon-4,May,Mai
+digits/mon-5,June,Juni
+digits/mon-6,July,Juli
+digits/mon-7,August,August
+digits/mon-8,September,September
+digits/mon-9,October,Oktober
+digits/oclock,o'clock,Uhr
+digits/oh,oh,Null
+digits/p-m,P.M.,Nachmittags
+digits/pound,pound,Raute
+digits/star,star,Stern
+digits/thousand,thousand,Tausend
+digits/today,today,Heute
+digits/tomorrow,tomorrow,Morgen
+digits/yesterday,yesterday,Gestern
+dir-first,letters of your party's first name.,Buchstaben des Vornamens des gewünschten Teilnehmers
+dir-firstlast,... letters of your party's first or last name.,Buchstaben des Vor- oder Nachnamens des gewünschten Teilnehmers
+dir-instr,"If this is the person you are looking for press 1 now, otherwise please press star now.","Wenn dies Ihr gewünschter Teilnehmer ist, drücken Sie bitte die 1, andernfalls drücken Sie bitte die Sterntaste."
+dir-intro-fn,Welcome to the directory.  Please enter the first three letters of your party's first name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.,Willkommen im Teilnehmerverzeichnis. Bitte geben die ersten drei Buchstaben des Vornamens des gewünschten Teilnehmers mit Ihrer Telefontastatur ein. Benutzen Sie die Taste 7 für den Buchstaben Q und die Taste 9 für den Buchstaben Z.
+dir-intro,Welcome to the directory.  Please enter the first three letters of your party's last name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.,Willkommen im Teilnehmerverzeichnis. Bitte geben die ersten drei Buchstaben des Nachnamens des gewünschten Teilnehmers mit Ihrer Telefontastatur ein. Benutzen Sie die Taste 7 für den Buchstaben Q und die Taste 9 für den Buchstaben Z.
+dir-last,... letters of your party's last name.,Buchstaben des Nachnamens des gewünschten Teilnehmers
+dir-multi1,Press ...,Drücken
+dir-multi2,... for ...,für
+dir-multi3,... extension ...,Durchwahl
+dir-multi9,Press 9 for more entries.,Drücken Sie 9 für mehr Einträge
+dir-nomatch,No directory entries match your search.,Keine Einträge entsprechen Ihrer Suchanfrage.
+dir-nomore,There are no more compatible entries in the directory.,Es gibt keine weiteren kompatiblen Einträge in dem Verzeichnis.
+dir-pls-enter,Please enter the first ...,Bitte geben Sie die ersten
+dir-usingkeypad,"... using your touchtone keypad.  Use the 7 key for Q, and the 9 key for Z.",mit der Telefontastatur ein. Benutzen Sie die Taste 7 für den Buchstaben Q und die Taste 9 für den Buchstaben Z.
+dir-welcome,Welcome to the directory,Willkommen im Teilnehmerverzeichnis.
+disabled,Disabled.,Deaktiviert.
+do-not-disturb,Do not disturb.,Bitte nicht stören.
+enabled,Enabled.,Aktiviert.
+enter-num-blacklist,Please enter the number to be blacklisted.,"Bitte geben Sie die Nummer ein, die zur schwarzen Liste hinzugefügt werden soll."
+entr-num-rmv-blklist,Please enter the number to be removed from the blacklist.,"Bitte geben Sie die Nummer ein, die von der schwarzen Liste entfernt werden soll."
+extension,Extension.,Erweiterung.
+feature-not-avail-line,That feature is not available on this line.,Diese Funktionalität ist von dieser Leitung nicht verfügbar.
+followme/call-from,incoming call from,Eingehender Anruf von
+followme/no-recording,you have an incoming call,Sie haben einen eingehenden Anruf von
+followme/options,"press 1 to accept this call, or 2 to reject it","Drücken Sie 1 um den Anruf anzunehmen, oder 2 um ihn abzulehnen"
+followme/pls-hold-while-try,please hold while I try to locate the person you are calling,"Bitte halten Sie das Gespräch während ich versuche, Ihren Gesprächsteilnehmer zu lokalisieren"
+followme/sorry,"I'm sorry, but I was unable to locate the person you are calling","Es tut mir leid, aber ich konnte Ihren Gesprächsteilnehmer leider nicht lokalisieren"
+followme/status,the person you are calling is not at their desk; I will try to locate them for you,"Ihr Gesprächsteilnehmer ist derzeit nicht an Ihrem Arbeitsplatz. Ich werde versuchen, den Teilnehmer für Sie zu finden."
+for,For.,Für
+from-unknown-caller,From an unknown caller.,Von einem unbekannten Anrufer
+goodbye,Goodbye!,Auf Wiedersehen!
+hello-world,Hello world.,"Hallo, Welt"
+hello,Hello.,Hallo
+hours,hours,Stunden
+if-correct-press,"If this is correct, press...","Wenn das korrekt ist, drücken Sie"
+im-sorry,I'm sorry.,Es tut mir leid.
+info-about-last-call,Information about your last call.,Informationen über Ihren letzten Anruf
+invalid,"I am sorry, that's not a valid extension.  Please try again.","Es tut mir leid, aber das ist keine korrekte Durchwahl. Bitte versuchen Sie es nocheinmal."
+is-in-use,Is in use.,Befindet sich in Benutzung
+is-set-to,Is set to.,Ist eingestellt auf
+is,Is.,Ist
+letters/a,a,a
+letters/ascii123,left brace,Geschwungene Klammer auf
+letters/ascii124,pipe,Senkrechter Strich
+letters/ascii125,right brace,Geschwungene Klammer zu
+letters/ascii126,tilde,Tilde
+letters/ascii34,quote,Anführungszeichen
+letters/ascii36,dollar sign,Dollarzeichen
+letters/ascii37,percent,Prozent
+letters/ascii38,ampersand,Kaufmännisches Und
+letters/ascii39,tick,Einfaches Anführungszeichen
+letters/ascii40,open parenthesis,Klammer auf
+letters/ascii41,close parenthesis,Klammer zu
+letters/ascii42,star,Sternchen
+letters/ascii44,comma,Komma
+letters/ascii58,colon,Doppelpunkt
+letters/ascii59,semicolon,Semikolon
+letters/ascii60,less than,Kleiner als
+letters/ascii62,greater than,Größer als
+letters/ascii63,question mark,Fragezeichen
+letters/ascii91,left bracket,Eckige Klammer auf
+letters/ascii92,backslash,Backslash
+letters/ascii93,right bracket,Eckige Klammer zu
+letters/ascii94,caret,Einfügezeichen
+letters/ascii95,underscore,Unterstrich
+letters/ascii96,backtick,Backtick
+letters/asterisk,asterisk,Sternchen
+letters/at,at [@],@
+letters/b,b,b
+letters/c,c,c
+letters/d,d,d
+letters/dash,dash [-],Bindestrich
+letters/dollar,dollar [$],Dollar
+letters/dot,dot [.],Punkt
+letters/e,e,e
+letters/equals,equals [=],Ist gleich
+letters/exclaimation-point,exclaimation-point [!],Ausrufezeichen
+letters/f,f,f
+letters/g,g,g
+letters/h,h,h
+letters/i,i,i
+letters/j,j,j
+letters/k,k,k
+letters/l,l,l
+letters/m,m,m
+letters/n,n,n
+letters/o,o,o
+letters/p,p,p
+letters/plus,plus [+],Plus
+letters/q,q,q
+letters/r,r,r
+letters/s,s,s
+letters/slash,slash [/],Slash
+letters/space,space [ ],Leerzeichen
+letters/t,t,t
+letters/u,u,u
+letters/v,v,v
+letters/w,w,w
+letters/x,x,x
+letters/y,y,y
+letters/z,z,z
+letters/zed,zed,z
+location,Location.,Standort
+lowercase,lowercase,Kleinschrift
+minute,minute,Minute
+minutes,minutes,Minuten
+num-was-successfully,The number was successfully...,Die Nummer wurde erfolgreich
+number-not-answering,The number is not answering.,Die Nummer antwortet nicht
+number,Number.,Nummer
+one-moment-please,"One moment, please.","Einen Moment, bitte."
+pbx-invalid,"I am sorry, that's not a valid extension.  Please try again.","Es tut mir leid, aber das ist keine korrekte Durchwahl. Bitte versuchen Sie es nocheinmal."
+pbx-invalidpark,"I am sorry, there is no call parked on that extension.  Please try again.","Es tut mir leid, aber es gibt keinen gehaltenen Anruf für diese Durchwahl. Bitte versuchen Sie es erneut."
+pbx-parkingfailed,Parking attempt failed.,Haltevorgang fehlgeschlagen.
+pbx-transfer,Transfer.,Übertragung
+phonetic/9_p,niner,Neun
+phonetic/a_p,alpha,Anton
+phonetic/b_p,bravo,Berta
+phonetic/c_p,charlie,Cäsar
+phonetic/d_p,delta,Dora
+phonetic/e_p,echo,Emil
+phonetic/f_p,foxtrot,Friedrich
+phonetic/g_p,golf,Gustav
+phonetic/h_p,hotel,Heinrich
+phonetic/i_p,india,Ida
+phonetic/j_p,juliet,Julius
+phonetic/k_p,kilo,Kaufmann
+phonetic/l_p,lima,Ludwig
+phonetic/m_p,mike,Martha
+phonetic/n_p,november,Nordpol
+phonetic/o_p,oscar,Otto
+phonetic/p_p,papa,Paula
+phonetic/q_p,quebec,Quelle
+phonetic/r_p,romeo,Richard
+phonetic/s_p,sierra,Samuel
+phonetic/t_p,tango,Theodor
+phonetic/u_p,uniform,Ulrich
+phonetic/v_p,victor,Viktor
+phonetic/w_p,whiskey,Wilhelm
+phonetic/x_p,xray,Xanthippe
+phonetic/y_p,yankee,Ypsilon
+phonetic/z_p,zulu,Zacharias
+please-try-again,Please try again.,Bitte versuchen Sie es nocheinmal.
+please-try-call-later,Please try your call again later.,"Bitte versuchen Sie, später nocheinmal anzurufen."
+pls-hold-while-try,Please hold while we try to connect you.,Bitte bleiben Sie in der Leitung während wir versuchen Ihren Anruf zu vermitteln.
+pls-try-call-later,Please try your call again later.,"Bitte versuchen Sie, später nocheinmal anzurufen."
+pm-invalid-option,That option is invalid. Please try again.,Diese Option ist ungültig. Bitte versuchen Sie es nocheinmal.
+priv-callee-options,"Dial 1 if you wish this caller to reach you directly now, and in the future.  Dial 2 if you wish to send this caller to voicemail now and forevermore.  Dial 3 to send this caller to the torture menus, now and forevermore.  Dial 4 to send this caller to a polite ""don't call"" menu, now and forevermore.  Dial 5 to allow this caller to come straight thru to you in the future, but just this once, send them to voicemail.","Drücken Sie 1 falls dieser Anrufer Sie jetzt und in Zukunft direkt persönlich erreichen soll. Drücken Sie 2 wenn Sie diesen Anrufer jetzt und in Zukunft direkt auf Ihren Anrufbeantworter weiterleiten möchten. Wählen Sie die 3 um diesen Anrufer jetzt und für alle Zeiten zu den Foltermenüs zu verbannen. Drücken Sie die 4 um diesen Anrufer jetzt und in Zukunft zu einer höflichen Ansage weiterzuleiten, die ihn bittet nicht mehr anzurufen. Drücken Sie 5 um diesen Anrufer in Zukunft direkt persönlich durchzustellen und nur dieses Mal zum Anrufbeantworter weiterzuleiten."
+priv-callpending,"I have a caller waiting, who introduces themselves as:","Ich habe einen wartenden Anrufer für Sie, der sich selber vorstellt als:"
+priv-introsaved,"Thank you. Please hold, while I attempt to connect you with your party!","Vielen Dank. Bitte warten Sie während ich versuche, Sie mit ihrem Teilnehmer zu verbinden."
+priv-recordintro,"At the tone, please say your name.",Bitte nennen Sie Ihren Namen nach dem Signalton.
+privacy-incorrect,"I'm sorry, that number is not valid.","Es tut mir leid, aber diese Nummer ist nicht korrekt."
+privacy-prompt,"Please enter your phone number, starting with the area code.","Bitte geben Sie Ihre Telefonnummer ein, beginnend mit der Vorwahl."
+privacy-thankyou,Thank you.,Vielen Dank.
+privacy-to-blacklist-last-caller,The last caller was...,Der letzte Anrufer war
+privacy-unident,The party you are trying to reach does not accept unidentified calls.,Der Teilnehmer den Sie versuchen zu erreichen akzeptiert keine nicht identifizierten Anrufer.
+queue-callswaiting,Waiting to speak with a representative,Warten auf das Gespräch mit einem Betreuer
+queue-holdtime,The estimated hold time is currently,Die geschätzte Wartezeit beträgt derzeit
+queue-less-than,less than,weniger als
+queue-minute,minute,Minute
+queue-minutes,minutes,Minuten
+queue-periodic-announce,All of our represenatives are currently busy. Please stay on the line and your call will be answered by the next available representative.,"Alle unsere Kundenbetreuer befinden sich derzeit im Gespräch. Bitte bleiben Sie in der Leitung, Ihr Anruf wird von dem nächsten verfügbaren Mitarbeiter entgegen genommen."
+queue-quantity1,"Currently, there are more than ...",Derzeit gibt es mehr als
+queue-quantity2,... callers waiting to speak with a representative.,"Anrufer die darauf warten, mit einem Mitarbeiter zu sprechen."
+queue-reporthold,Hold time,Haltezeit
+queue-seconds,Seconds,Sekunden
+queue-thankyou,Thank you for your patience,Danke für Ihre Geduld.
+queue-thereare,You are currently caller number,Sie sind derzeit Anrufer Nummer
+queue-youarenext,Your call is now first in line and will be answered by the next available representative.,Ihr Anruf befindet sich am Anfang der Warteschleife und wird von dem nächsten freien Mitarbeiter entgegen genommen.
+removed,Removed.,Entfernt.
+screen-callee-options,"You have these options: Dial 1 if you wish to immediately connect to the incoming call.  Dial 2 if you wish to send this caller to voicemail.  Dial 3 to send this caller to the torture menus.  Dial 4 to send this caller to a polite ""don't call"" menu.","Sie haben diese Optionen: Drücken Sie 1 wenn Sie den eingehenden Anruf sofort entgegen nehmen wollen. Drücken Sie 2 wenn Sie diesen Anrufer zum Anrufbeantworter weiterleiten möchten. Drücken Sie 3 um diesen Anrufer zu den Foltermenüs zu verbannen. Drücken Sie 4 um diesen Anrufer zu einer höflichen Ansage weiterzuleiten, die ihn bittet nicht mehr anzurufen."
+second,second,Sekunden
+seconds,seconds,Sekunden
+silence/10,(10 seconds of silence),COPY
+silence/1,(1 second of silence),COPY
+silence/2,(2 seconds of silence),COPY
+silence/3,(3 seconds of silence),COPY
+silence/4,(4 seconds of silence),COPY
+silence/5,(5 seconds of silence),COPY
+silence/6,(6 seconds of silence),COPY
+silence/7,(7 seconds of silence),COPY
+silence/8,(8 seconds of silence),COPY
+silence/9,(9 seconds of silence),COPY
+simul-call-limit-reached,Simultaneous call limit reached.,Maximale Anzahl gleichzeitiger Anrufe erreicht.
+something-terribly-wrong,Something is terribly wrong!,Etwas stimmt überhaupt nicht!
+sorry-youre-having-problems,Sorry you're having problems.,"Es tut mir leid, dass Sie Probleme haben."
+sorry,We're sorry.,Wir entschuldigen uns.
+speed-dial-empty,The speed dial entry you've accessed is empty.,"Die Kurzwahl, auf die Sie zugegriffen haben ist leer."
+speed-dial,Speed-dial.,Kurzwahl
+spy-agent,Agent,Teilnehmer
+spy-console,Console,Konsole
+spy-dahdi,DAHDI,DAHDI
+spy-h323,H.323,H.323
+spy-iax2,"IAX (note: does not say ""2"")",IAX
+spy-iax,IAX,IAX
+spy-jingle,Jingle,Jingle
+spy-local,Local,Local
+spy-mgcp,MGCP,MGCP
+spy-misdn,M I S D N,MISDN
+spy-mobile,Bluetooth Mobile,Bluetooth Mobile
+spy-nbs,N B S,NBS
+spy-sip,SIP,SIP
+spy-skinny,Skinny,Skinny
+spy-unistim,Unistim,Unistim
+spy-usbradio,USB Radio,USB Radio
+spy-zap,Zap,Zap
+ss-noservice,The number you have dialed is not in service. Please check the number and try again.,Die Rufnummer die sie gewählt haben ist nicht vergeben. Bitte überprüfen Sie die Nummer und versuchen Sie es nocheinmal.
+telephone-number,Telephone number.,Telefonnummer.
+time,Time.,Zeit.
+to-call-this-number,To call this number.,Zur Wahl dieser Nummer
+to-extension,To extension.,Zur Durchwahl
+to-listen-to-it,To listen to it.,Zum Anhören
+to-rerecord-it,To re-record it.,Zum Aufnehmen
+transfer,Please hold while I try that extension.,"Bitte bleiben Sie in der Leitung während ich versuche, diese Durchwahl zu erreichen."
+tt-allbusy,All representatives of the household are currently assisting other telemarketers.  Please hold and your call will be answered in the order it was received.,Alle Vertreter dieses Haushaltes sind derzeit mit anderen Marketing Anrufen beschäftigt. Bitte bleiben Sie in der Leitung und Ihr Anruf wird in der Reihenfolge bearbeitet.
+tt-monkeys,[sound of monkeys screaming],COPY
+tt-monkeysintro,They have been carried away by monkeys,Sie wurden von Affen mitgenommen.
+tt-somethingwrong,Something is terribly wrong,Etwas ist furchtbar schiefgegangen.
+tt-weasels,Weasels have eaten our phone system,Wiesel haben unser Telefonsystem gegessen.
+unidentified-no-callback,Un-indentified or witheld and therefore cannot be called back.,Nicht identifiziert oder unterdrückt. Rückruf ist nicht möglich.
+uppercase,uppercase,Großschrift
+vm-advopts,press 3 for advanced options,Drücken Sie 3 für weitere Optionen.
+vm-and,and,und
+vm-calldiffnum,press 2 to enter a different number,Drücken Sie 2 um eine andere Nummer einzugeben
+vm-changeto,Change to which folder?,Wechseln zu welchem Ordner?
+vm-Cust1,folder 5,Ordner 5
+vm-Cust2,folder 6,Ordner 6
+vm-Cust3,folder 7,Ordner 7
+vm-Cust4,folder 8,Ordner 8
+vm-Cust5,folder 9,Ordner 9
+vm-delete,Press 7 to delete this message.,Drücken Sie 7 um diese Nachricht zu löschen.
+vm-deleted,Message deleted.,Nachricht gelöscht.
+vm-dialout,please wait while i connect your call,Bitte warten Sie während ich Sie verbinde.
+vm-duration,This message lasts ...,Diese Nachricht dauert
+vm-enter-num-to-call,please enter the number you wish to call,"Bitte geben Sie die Nummer ein, die Sie anrufen möchten."
+vm-extension,extension,Durchwahl
+vm-Family,family,Familie
+vm-first,first,Erste
+vm-for,for,für
+vm-forward-multiple,"press 1 to send this message, or 2 to add another recipient.","Drücken Sie 1 um diese Nachricht zu senden, oder 2 um einen anderen Empfänger hinzuzufügen."
+vm-forward,"Press 1 to enter an extension, press 2 to use the directory",Drücken Sie 1 um eine Durchwahl einzugeben oder 2 um das Verzeichnis zu verwenden.
+vm-forwardoptions,press 1 to prepend a message or 2 to forward the message without prepending,Drücken Sie 1 um eine Nachricht voranzustellen oder 2 um die Nachricht direkt zu versenden.
+vm-Friends,friends,Freunde
+vm-from-extension,message from extension,Nachricht von Durchwahl
+vm-from-phonenumber,message from phone number,Nachricht von der Telefonnummer
+vm-from,from,Von einem unbekannten Anrufer
+vm-goodbye,Goodbye,Auf Wiedersehen!
+vm-helpexit,Press star for help or pound to exit.,Drücken Sie die Sterntaste für Hilfe oder die Rautetaste um zu beenden.
+vm-INBOX,new,Neu
+vm-incorrect-mailbox,Login incorrect.  Mailbox?,Anmeldung fehlerhaft. Anrufbeantworter?
+vm-incorrect,Login incorrect.,Anmeldung fehlerhaft.
+vm-instructions,To look into your messages press 1 now.  You may quit voicemail at any time by pressing the pound key.,"Um Ihre Nachrichten abzuhören, drücken Sie jetzt die 1. Sie können den Anrufbeantworter jederzeit mit dem drücken der Rautetaste verlassen."
+vm-intro,Please leave your message after the tone.  When done hang up or press the pound key. (simple tone sound plays),Bitte hinterlassen Sie Ihre Nachricht nach dem Signalton. Danach können Sie auflegen oder die Rautetaste drücken.
+vm-invalid-password,That password does not meet the minimum requirements for this mailbox.  Please try again.,Das Passwort entspricht nicht den Mindestanforderungen für diesen Anrufbeantworter. Bitte versuchen Sie es nocheinmal.
+vm-invalidpassword,That is not a valid password.  Please try again.,Das ist kein gültiges Passwort. Bitte versuchen Sie es nocheinmal.
+vm-isonphone,is on the phone,ist am Telefon
+vm-isunavail,is unavailable,ist derzeit nicht verfügbar
+vm-last,last,letzte
+vm-leavemsg, Press 5 to leave a message,Drücken Sie 5 um eine Nachricht zu hinterlassen.
+vm-login,Comedian Mail.  Mailbox?,Komiker Post. Anrufbeantworter?
+vm-mailboxfull,sorry but the user's mail box can't accept more messages,"Entschuldigen Sie, aber der Anrufbeantworter kann keine weiteren Nachrichten mehr aufzeichnen."
+vm-marked-nonurgent,Urgent status removed.,Status Dringend entfernt.
+vm-marked-urgent,Message marked urgent.,Nachricht als Dringend markiert.
+vm-message,message,Nachricht
+vm-messages,messages,Nachrichten
+vm-minutes,minutes,Minuten
+vm-mismatch,The passwords you entered and re-entered did not match.  Please try again.,"Die Passwörter, die Sie eingegeben haben, haben nicht übereingestimmt. Bitte versuchen Sie es nocheinmal."
+vm-msgforwarded,Your message has been successfully forwarded.,Ihre Nachricht wurde erfolgreich weitergeleitet.
+vm-msginstruct,"To hear the next message press 6, to repeat this message press 5, to hear the previous message press 4, to delete or undelete this message press zero, to quit voicemail press pound.","Um die nächste Nachricht abzuhören drücken Sie die 6, um diese Nachricht zu wiederholen drücken Sie die 5, um die vorherige Nachricht nochmal abzuhören drücken Sie die 4, um diese Nachricht zu löschen oder wiederherzustellen drücken Sie die 0, um den Anrufbeantworter zu verlassen drücken Sie die Rautetaste."
+vm-msgsaved,Your message has been saved.,Ihre Nachricht wurde gespeichert.
+vm-newpassword,Please enter your new password followed by the pound key.,Bitte geben Sie Ihr neues Passwort gefolgt von der Rautetaste ein.
+vm-newuser,"Welcome to Comedian Mail. First, I will guide you through a short setup process.",Willkommen bei der Komiker Post. Zuerst werde ich Sie durch einen kurzen Einrichtungsprozess leiten.
+vm-next,Press 6 to play the next message.,Drücken Sie 6 um die nächste Nachricht abzuspielen.
+vm-no,no,Nein
+vm-nobodyavail,Nobody is available to take your call at the moment,"Derzeit können wir Ihren Anruf leider nicht persönlich entgegennehmen,"
+vm-nobox,you cannot reply to this message because the sender does not have a mailbox,"Sie können auf diese Nachricht nicht antworten, da der Absender keinen Anrufbeantworter eingerichtet hat."
+vm-nomore,No more messages.,Keine weiteren Nachrichten.
+vm-nonumber,I'm afraid i don't know who sent this message,"Es tut mir leid, aber ich weiß nicht wer diese Nachricht versendet hat."
+vm-num-i-have,the number i have is,"die Nummer, die ich habe lautet"
+vm-Old,old,alt
+vm-onefor-full,Press one to listen to ...,Drücken Sie 1 um folgendes anzuhören:
+vm-onefor,Press 1 for,Drücken Sie 1 um
+vm-options,"Press 1 to record your unavailable message, press 2 to record your busy message, press 3 to record your name, press 4 to record your temporary greeting, press 5 to change your password, press star to return to the main menu.","Drücken Sie 1 um Ihre Abwesenheitsansage aufzunehmen, drücken Sie 2 um Ihre Besetztansage aufzunehmen, drücken Sie 3 um Ihren Namen aufzunehmen, drücken Sie 4 um Ihre temporäre Begrüßung aufzunehmen, drücken Sie 5 um Ihr Passwort zu ändern oder drücken Sie die Sterntaste, um zum Hauptmenü zurückzukehren."
+vm-opts-full,press 2 to access messages saved in other folders.  Press 3 to record a message for another mailbox.  Press 0 for greetings and password management.,Drücken Sie 2 um auf Nachrichten aus anderen Ordnern zuzugreifen. Drücken Sie 3 um eine Nachricht für einen anderen Anrufbeantworter aufzuzeichnen. Drücken Sie 0 für Begrüßungs- und Passwortverwaltung.
+vm-opts,"Press 2 to change folders, press 3 for advanced options, press zero for mailbox options.","Drücken Sie 2 um den Ordner zu wechseln, drücke Sie 3 für erweiterte Optionen, drücken Sie 0 für Einstellungen."
+vm-passchanged,Your passwords have been changed.,Ihre Passwörter wurden geändert.
+vm-password,password,Passwort
+vm-pls-try-again,please try again,Bitte versuchen Sie es nocheinmal.
+vm-press,press,Drücken
+vm-prev,Press 4 for the previous message,Drücken Sie 4 für die vorherige Nachricht
+vm-reachoper,press 0 to reach an operator,Drücken Sie 0 um einen Telefonisten zu erreichen.
+vm-rec-busy,After the tone say your busy message and then press the pound key.,Sprechen Sie nach dem Signalton Ihre Besetztansage auf und drücken Sie danach die Rautetaste.
+vm-rec-name,After the tone say your name and then press the pound key.,Sprechen Sie nach dem Signalton Ihren Namen auf und drücken Sie danach die Rautetaste.
+vm-rec-temp,"After the tone, say your temporary message, and then press the pound key.",Sprechen Sie nach dem Signalton Ihre temporäre Begrüßung auf und drücken Sie danach die Rautetaste.
+vm-rec-unv,After the tone say your unavailable message and then press the pound key.,Sprechen Sie nach dem Signalton Ihre Abwesenheitsansage auf und drücken Sie danach die Rautetaste.
+vm-received,received,Erhalten
+vm-record-prepend,"At the tone, please record an introduction to the forwarded message.  When done, press the pound sign.",Nach dem Signalton sprechen Sie bitte eine Einführung zu der weitergeleiteten Nachricht auf. Danach drücken Sie die Rautetaste.
+vm-reenterpassword,Please re-enter your password followed by the pound key.,"Bitte geben Sie Ihr Passwort erneut ein, gefolgt von der Rautetaste."
+vm-repeat,Press 5 to repeat the current message.,Drücken Sie 5 um die Nachricht zu wiederholen.
+vm-review-nonurgent,Press 4 to remove the urgent status of this message.,Drücken Sie 4 um die Dringlichkeitsmarkierung der Nachricht zu entfernen.
+vm-review-urgent,Press 4 to mark this message as urgent.,Drücken Sie 4 um die Nachricht als dringlich zu markieren.
+vm-review,press 1 to accept this recording press 2 to listen to it press 3 to rerecord your message,"Drücken Sie 1 um diese Aufnahme zu bestätigen, drücken Sie 2 um die Aufnahme nochmals anzuhören oder drücken Sie 3 um die Aufnahme nochmals durchzuführen."
+vm-saved,saved,Gespeichert
+vm-savedto,saved to,Gespeichert als
+vm-savefolder,Which folder should I save the message to?,In welchen Ordner soll ich diese Nachricht speichern?
+vm-savemessage,or 9 to save this message,Oder 9 um diese Nachricht zu speichern
+vm-saveoper,"press 1 to accept this recording, otherwise, please continue to hold","Drücken Sie 1 um diese Aufnahme zu bestätigen, andernfalls bleiben Sie bitte weiter in der Leitung"
+vm-sorry,I'm sorry I did not understand your response.,"Entschuldigung, aber ich habe Ihre Antwort leider nicht verstanden."
+vm-star-cancel,press star to cancel,Drücken Sie die Sterntaste zum Abbrechen
+vm-starmain,press star to return to the main menu,Drücken Sie die Sterntaste um zum Hauptmenü zurückzukehren
+vm-tempgreetactive,Your temporary greeting is currently active,Ihre temporäre Begrüßung ist derzeit aktiv
+vm-tempgreeting2,"press 1 to record your temporary greeting, or press 2 to erase your temporary greeting","Drücken Sie 1 um Ihre temporäre Begrüßung aufzunehmen, oder 2 um sie zu löschen"
+vm-tempgreeting,press 1 to record your temporary greeting,Drücken Sie 1 um Ihre temporäre Begrüßung aufzunehmen
+vm-tempremoved,Your temporary greeting has been removed,Ihre temporäre Begrüßung wurde entfernt
+vm-then-pound,then press pound,danach drücken Sie die Rautetaste
+vm-theperson,The person at extension,Die Person mit der Durchwahl
+vm-tmpexists,"There is a temporary greeting, which overrides your standard greetings.","Es gibt eine temporäre Begrüßung, die Ihre Standardbegrüßung überschreibt."
+vm-tocallback,press 2 to call the person who sent this message,"Drücken Sie 2 um die Person anzurufen, die diese Nachricht hinterlassen hat."
+vm-tocallnum,press 1 to call this number,Drücken Sie 1 um diese Rufnummer anzurufen.
+vm-tocancel,or pound to cancel.,oder die Rautetaste um abzubrechen.
+vm-tocancelmsg,press star to cancel this message,Drücken Sie die Sterntaste um diese Nachricht abzubrechen.
+vm-toenternumber,press 1 to enter a number,Drücken Sie 1 um eine Nummer einzugeben
+vm-toforward,Press 8 to forward the message to another user,Drücken Sie 8 um die Nachricht zu einem anderen Teilnehmer weiterzuleiten
+vm-tohearenv,press 3 to hear the message envelope,Drücken Sie 3 um die Metadaten der Nachricht anzuhören
+vm-tomakecall,press 4 to place an outgoing call,Drücken Sie 5 um einen ausgehenden Anruf zu tätigen
+vm-tooshort,your message is too short,Ihre Nachricht ist zu kurz.
+vm-toreply,press 1 to send a reply,Drücken Sie 1 um eine Antwort zu senden.
+vm-torerecord,press 3 to rerecord your message,Drücken Sie 3 um Ihre Nachricht nochmals aufzunehmen.
+vm-undelete,Press 7 to undelete this message,Drücken Sie 7 um diese Nachricht wiederherzustellen.
+vm-undeleted,Message undeleted.,Nachricht wiederhergestellt.
+vm-unknown-caller,from an unknown caller,Von einem unbekannten Anrufer
+vm-Urgent,urgent,Dringlich
+vm-whichbox,"To leave a message, please enter a mailbox number.","Um eine Nachricht zu hinterlassen, geben Sie bitte eine Anrufbeantworternummer ein."
+vm-Work,work,Arbeit
+vm-youhave,you have,Sie haben
+with,With.,Mit.
+you-entered,You entered.,Sie haben folgendes eingegeben:
+your,Your.,Ihr
