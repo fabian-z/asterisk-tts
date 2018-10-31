@@ -1,9 +1,14 @@
+//TODO configurable voice
 package main
 
 import (
+	"encoding/csv"
+	"errors"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/polly"
+	"path/filepath"
+	"strings"
 
 	"github.com/cryptix/wav"
 
@@ -12,14 +17,24 @@ import (
 	"os"
 )
 
-func main() {
+const (
+	prefix = "<speak><amazon:auto-breaths>"
+	suffix = "</amazon:auto-breaths></speak>"
+)
 
-	prefix := "<speak><amazon:auto-breaths>"
-	suffix := "</amazon:auto-breaths></speak>"
+var (
+	source = os.Args[1]
+	col    = os.Args[2]
+	out    = os.Args[3]
 
-	text := "Ihr Anruf kann nicht wie gewählt ausgeführt werden."
+	svc        *polly.Polly
+	pollyVoice = aws.String("Vicki")
+)
 
-	s := prefix + text + suffix
+func init() {
+	if len(os.Args) != 4 {
+		log.Fatalf("Usage: %s <input.csv> <column index> <output folder>", os.Args[0])
+	}
 
 	// Init SDK session
 	sess := session.Must(session.NewSessionWithOptions(session.Options{
@@ -27,20 +42,82 @@ func main() {
 	}))
 
 	// Create Polly client
-	svc := polly.New(sess)
+	svc = polly.New(sess)
+}
+
+func main() {
+
+	src, err := os.Open(source)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer src.Close()
+
+	out = filepath.Clean(out)
+	err = os.MkdirAll(out, 0777)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// expect column indexes in first row
+	var colIndex, msgCount, charCount int
+	var index, message string
+	csvSrc := csv.NewReader(src)
+reader:
+	for {
+		record, err := csvSrc.Read()
+		if err == io.EOF {
+			break reader
+		}
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		if colIndex == 0 {
+			for k, v := range record {
+				if strings.TrimSpace(v) == col {
+					colIndex = k
+					continue reader
+				}
+			}
+			if colIndex == 0 {
+				log.Fatal("Specified column index not found or invalid")
+			}
+		}
+
+		index = record[0]
+		message = record[colIndex]
+
+		msgCount++
+		charCount = charCount + len(message)
+
+		err = synthesize(message, filepath.Join(out, index+".wav"))
+		if err != nil {
+			log.Fatal(err)
+		}
+
+	}
+
+	log.Printf("Completed successfully, synthesized output for %d messages with %d chars\n", msgCount, charCount)
+
+}
+
+func synthesize(ssml string, out string) error {
+
+	s := prefix + ssml + suffix
 
 	// Output to WAV (PCM) with German Voice "Vicki"
 	// See https://docs.aws.amazon.com/polly/latest/dg/voicelist.html for available voices
-	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String("16000"), Text: aws.String(s), VoiceId: aws.String("Vicki"), TextType: aws.String(polly.TextTypeSsml)}
+	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String("16000"), Text: aws.String(s), VoiceId: pollyVoice, TextType: aws.String(polly.TextTypeSsml)}
 
 	output, err := svc.SynthesizeSpeech(input)
 	if err != nil {
-		log.Fatal("Got error calling SynthesizeSpeech: ", err)
+		return errors.New("Got error calling SynthesizeSpeech: " + err.Error())
 	}
 
-	outFile, err := os.Create("out.wav")
+	outFile, err := os.Create(out)
 	if err != nil {
-		log.Fatal("error creating output: ", err)
+		return errors.New("error creating output: " + err.Error())
 	}
 	// is closed by wav package writer.Close()
 	//defer outFile.Close()
@@ -54,17 +131,16 @@ func main() {
 
 	writer, err := wf.NewWriter(outFile)
 	if err != nil {
-		log.Fatal("error creating wav writer: ", err)
+		return errors.New("error creating wav writer: " + err.Error())
 	}
 
 	_, err = io.Copy(writer, output.AudioStream)
 	if err != nil {
-		log.Fatal("error writing output: ", err)
+		return errors.New("error writing output: " + err.Error())
 	}
 
 	err = writer.Close()
 	if err != nil {
-		log.Fatal("error closing wav writer: ", err)
+		return errors.New("error closing wav writer: " + err.Error())
 	}
-
 }
