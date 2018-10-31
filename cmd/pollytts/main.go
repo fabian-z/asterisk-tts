@@ -24,10 +24,6 @@ const (
 )
 
 var (
-	source = os.Args[1]
-	col    = os.Args[2]
-	out    = os.Args[3]
-
 	svc        *polly.Polly
 	pollyVoice = aws.String("Vicki")
 )
@@ -47,6 +43,10 @@ func init() {
 }
 
 func main() {
+
+	source := os.Args[1]
+	col := os.Args[2]
+	out := os.Args[3]
 
 	src, err := os.Open(source)
 	if err != nil {
@@ -149,4 +149,6 @@ func synthesize(ssml string, out string) error {
 	if err != nil {
 		return errors.New("error closing wav writer: " + err.Error())
 	}
+
+	return nil
 }
