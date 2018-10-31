@@ -62,7 +62,7 @@ func main() {
 
 	// expect column indexes in first row
 	var colIndex, msgCount, charCount int
-	var index, message string
+	var index, message, language string
 	csvSrc := csv.NewReader(src)
 reader:
 	for {
@@ -78,6 +78,7 @@ reader:
 			for k, v := range record {
 				if strings.TrimSpace(v) == col {
 					colIndex = k
+					language = v
 					continue reader
 				}
 			}
@@ -97,7 +98,7 @@ reader:
 		msgCount++
 		charCount = charCount + len(message)
 
-		outPath := filepath.Join(out, index+".wav")
+		outPath := filepath.Join(out, language, index+".wav")
 		outDir := filepath.Dir(outPath)
 
 		err = os.MkdirAll(outDir, 0777)
@@ -105,7 +106,7 @@ reader:
 			log.Fatal(err)
 		}
 
-		log.Println("Synthesizing ", outPath)
+		//log.Println("Synthesizing ", outPath)
 
 		err = synthesize(message, outPath)
 		if err != nil {
