@@ -18,8 +18,9 @@ import (
 )
 
 const (
-	prefix = "<speak><amazon:auto-breaths>"
-	suffix = "</amazon:auto-breaths></speak>"
+	prefix    = "<speak><amazon:auto-breaths>"
+	suffix    = "</amazon:auto-breaths></speak>"
+	copyMagic = "COPY"
 )
 
 var (
@@ -87,6 +88,11 @@ reader:
 
 		index = record[0]
 		message = record[colIndex]
+
+		if message == "COPY" {
+			log.Println("Skipping sound for ", index)
+			continue reader
+		}
 
 		msgCount++
 		charCount = charCount + len(message)
