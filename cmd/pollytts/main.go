@@ -125,7 +125,7 @@ func synthesize(ssml string, out string) error {
 
 	// Output to WAV (PCM) with German Voice "Vicki"
 	// See https://docs.aws.amazon.com/polly/latest/dg/voicelist.html for available voices
-	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String("16000"), Text: aws.String(s), VoiceId: pollyVoice, TextType: aws.String(polly.TextTypeSsml)}
+	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String("8000"), Text: aws.String(s), VoiceId: pollyVoice, TextType: aws.String(polly.TextTypeSsml)}
 
 	output, err := svc.SynthesizeSpeech(input)
 	if err != nil {
@@ -140,7 +140,7 @@ func synthesize(ssml string, out string) error {
 	//defer outFile.Close()
 
 	var wf = wav.File{
-		SampleRate:      16000,
+		SampleRate:      8000,
 		Channels:        1,
 		SignificantBits: 16,
 		AudioFormat:     1,
