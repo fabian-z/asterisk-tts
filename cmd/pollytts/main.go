@@ -8,6 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/polly"
 	"path/filepath"
+	"strconv"
 	"strings"
 
 	"github.com/cryptix/wav"
@@ -24,8 +25,9 @@ const (
 )
 
 var (
-	svc        *polly.Polly
-	pollyVoice = aws.String("Vicki")
+	svc          *polly.Polly
+	pollyVoice   = aws.String("Vicki")
+	sampleRateHz = 8000
 )
 
 func init() {
@@ -125,7 +127,7 @@ func synthesize(ssml string, out string) error {
 
 	// Output to WAV (PCM) with German Voice "Vicki"
 	// See https://docs.aws.amazon.com/polly/latest/dg/voicelist.html for available voices
-	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String("8000"), Text: aws.String(s), VoiceId: pollyVoice, TextType: aws.String(polly.TextTypeSsml)}
+	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String(strconv.Itoa(sampleRateHz)), Text: aws.String(s), VoiceId: pollyVoice, TextType: aws.String(polly.TextTypeSsml)}
 
 	output, err := svc.SynthesizeSpeech(input)
 	if err != nil {
@@ -140,7 +142,7 @@ func synthesize(ssml string, out string) error {
 	//defer outFile.Close()
 
 	var wf = wav.File{
-		SampleRate:      8000,
+		SampleRate:      uint32(sampleRateHz),
 		Channels:        1,
 		SignificantBits: 16,
 		AudioFormat:     1,
