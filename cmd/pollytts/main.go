@@ -1,4 +1,3 @@
-//TODO configurable voice
 package main
 
 import (
@@ -24,15 +23,32 @@ const (
 	copyMagic = "COPY"
 )
 
+type OutputFormat int
+
+const (
+	WAV OutputFormat = iota
+	SLN16
+)
+
 var (
-	svc          *polly.Polly
+	svc *polly.Polly
+
+	//TODO configuration
 	pollyVoice   = aws.String("Vicki")
-	sampleRateHz = 8000
+	sampleRateHz = 16000
+	outputFormat = WAV
 )
 
 func init() {
 	if len(os.Args) != 4 {
 		log.Fatalf("Usage: %s <input.csv> <column index> <output folder>", os.Args[0])
+	}
+
+	if outputFormat == WAV && sampleRateHz != 8000 {
+		log.Println("Warning: Output will not be compatible with Asterisk. Using SLN16 output is recommended for best quality")
+	}
+	if outputFormat == SLN16 && sampleRateHz != 16000 {
+		log.Fatal("Invalid sample rate for file format")
 	}
 
 	// Init SDK session
@@ -100,7 +116,7 @@ reader:
 		msgCount++
 		charCount = charCount + len(message)
 
-		outPath := filepath.Join(out, language, index+".wav")
+		outPath := filepath.Join(out, language, index+"."+getExtension(outputFormat))
 		outDir := filepath.Dir(outPath)
 
 		err = os.MkdirAll(outDir, 0777)
@@ -125,7 +141,6 @@ func synthesize(ssml string, out string) error {
 
 	s := prefix + ssml + suffix
 
-	// Output to WAV (PCM) with German Voice "Vicki"
 	// See https://docs.aws.amazon.com/polly/latest/dg/voicelist.html for available voices
 	input := &polly.SynthesizeSpeechInput{OutputFormat: aws.String(polly.OutputFormatPcm), SampleRate: aws.String(strconv.Itoa(sampleRateHz)), Text: aws.String(s), VoiceId: pollyVoice, TextType: aws.String(polly.TextTypeSsml)}
 
@@ -138,19 +153,26 @@ func synthesize(ssml string, out string) error {
 	if err != nil {
 		return errors.New("error creating output: " + err.Error())
 	}
-	// is closed by wav package writer.Close()
-	//defer outFile.Close()
 
-	var wf = wav.File{
-		SampleRate:      uint32(sampleRateHz),
-		Channels:        1,
-		SignificantBits: 16,
-		AudioFormat:     1,
-	}
+	var writer io.WriteCloser
 
-	writer, err := wf.NewWriter(outFile)
-	if err != nil {
-		return errors.New("error creating wav writer: " + err.Error())
+	switch outputFormat {
+	case WAV:
+		var wf = wav.File{
+			SampleRate:      uint32(sampleRateHz),
+			Channels:        1,
+			SignificantBits: 16,
+			AudioFormat:     1,
+		}
+
+		writer, err = wf.NewWriter(outFile)
+		if err != nil {
+			return errors.New("error creating wav writer: " + err.Error())
+		}
+	case SLN16:
+		writer = outFile
+	default:
+		panic("invalid format")
 	}
 
 	_, err = io.Copy(writer, output.AudioStream)
@@ -164,4 +186,15 @@ func synthesize(ssml string, out string) error {
 	}
 
 	return nil
+}
+
+func getExtension(o OutputFormat) string {
+	switch o {
+	case WAV:
+		return "wav"
+	case SLN16:
+		return "sln16"
+	default:
+		panic("invalid format")
+	}
 }

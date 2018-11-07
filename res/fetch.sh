@@ -2,9 +2,15 @@
 
 set -e
 
+format="$1"
+if [[ "$format" != "wav" && "$format" != "sln16" ]]; then
+	echo "Unsupported format: $1"
+	exit
+fi
+
 URL="https://downloads.asterisk.org/pub/telephony/sounds"
-CORE="asterisk-core-sounds-en-wav-current"
-EXTRA="asterisk-extra-sounds-en-wav-current"
+CORE="asterisk-core-sounds-en-$1-current"
+EXTRA="asterisk-extra-sounds-en-$1-current"
 
 rm -rf "$CORE" && rm -rf "$EXTRA" 
 mkdir "$CORE" && mkdir "$EXTRA"
