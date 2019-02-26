@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### Sound files copied from Asterisk sounds distribution (```out/copied```)
+### Sound files copied from Asterisk sounds distribution (```generated/```)
 
 Asterisk core sound files are provided by Digium, Inc. (http://www.digium.com) under the Creative Commons Public License
 
