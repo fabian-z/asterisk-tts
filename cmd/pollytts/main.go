@@ -36,7 +36,7 @@ var (
 	//TODO configuration
 	pollyVoice   = aws.String("Vicki")
 	sampleRateHz = 16000
-	outputFormat = WAV
+	outputFormat = SLN16
 )
 
 func init() {
