@@ -1,2 +1,4 @@
 .~lock*
 custom*
+cmd/csvconvert/csvconvert
+cmd/pollytts/pollytts
